@@ -1,12 +1,3 @@
-# Life is short, you need Python
+# My Awesome Book
 
-> Python Notebook
->
-> 为了编程，为了学习  
-> 笔记地址:[https://xintiaohuiyi.gitbook.io/python-tutorial/](https://xintiaohuiyi.gitbook.io/python-tutorial/)
-
----
-
-python目前分为两种版本，一个python3系列版本的，一个python2系列版本的，现在本文只介绍python3版本的 
-
-"# jyNotebook" 
+This file file serves as your book's preface, a great place to describe your book's content and ideas.
