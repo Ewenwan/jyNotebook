@@ -1,0 +1,45 @@
+## 生成图形 {#生成图形}
+
+当图片中的内容较多，相互遮盖时，我们可以通过设置相关内容的透明度来使图片更易于观察，也即是通过本节中的`bbox`参数设置来调节图像信息.
+
+首先参考之前的[例子](https://morvanzhou.github.io/tutorials/data-manipulation/plt/2-4-axis2/), 我们先绘制图像基本信息：
+
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(-3, 3, 50)
+y = 0.1*x
+
+plt.figure()
+# 在 plt 2.0.2 或更高的版本中, 设置 zorder 给 plot 在 z 轴方向排序
+plt.plot(x, y, linewidth=10, zorder=1)
+plt.ylim(-2, 2)
+ax = plt.gca()
+ax.spines['right'].set_color('none')
+ax.spines['top'].set_color('none')
+ax.spines['top'].set_color('none')
+ax.xaxis.set_ticks_position('bottom')
+ax.spines['bottom'].set_position(('data', 0))
+ax.yaxis.set_ticks_position('left')
+ax.spines['left'].set_position(('data', 0))
+```
+
+[![](https://morvanzhou.github.io/static/results/plt/2_7_1.png "tick 能见度")](https://morvanzhou.github.io/static/results/plt/2_7_1.png)
+
+## 调整坐标 {#调整坐标}
+
+然后对被遮挡的图像调节相关透明度，本例中设置 x轴 和 y轴 的刻度数字进行透明度设置
+
+```
+for label in ax.get_xticklabels() + ax.get_yticklabels():
+    label.set_fontsize(12)
+    # 在 plt 2.0.2 或更高的版本中, 设置 zorder 给 plot 在 z 轴方向排序
+    label.set_bbox(dict(facecolor='white', edgecolor='None', alpha=0.7, zorder=2))
+plt.show()
+```
+
+其中`label.set_fontsize(12)`重新调节字体大小，`bbox`设置目的内容的透明度相关参，`facecolor`调节`box`前景色，`edgecolor`设置边框， 本处设置边框为无，`alpha`设置透明度. 最终结果如下:
+
+[![](https://morvanzhou.github.io/static/results/plt/2_7_2.png "tick 能见度")](https://morvanzhou.github.io/static/results/plt/2_7_2.png)
+

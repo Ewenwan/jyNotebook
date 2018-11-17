@@ -1,0 +1,34 @@
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]
+@="在此处打开命令提示符"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere\command]
+@="cmd.exe /s /k pushd "%V""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere]
+@="在此处打开命令窗口"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere]
+@="在此处打开命令窗口"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere]
+@="在此处打开命令窗口"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere\command]
+@="cmd.exe /s /k pushd \"%V\""
+```
+
+保存为OpenCmdHere.txt,然后将txt改为reg，双击确定即可
+
