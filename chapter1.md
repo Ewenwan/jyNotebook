@@ -19,7 +19,9 @@
 
 然后点击Downloads &gt; Windows,会出现如何界面
 
-![](/assets/1.2.1.1-2.png)然后点击 [Latest Python 3 Release - Python 3.7.0](https://www.python.org/downloads/release/python-370/)，往下滑动，出现以下界面
+![](/assets/1.2.1.1-2.png)
+
+然后点击 [Latest Python 3 Release - Python 3.7.0](https://www.python.org/downloads/release/python-370/)，往下滑动，出现以下界面
 
 ![](/assets/1.2.1.1-3.png)这里有很多版本的，在windows中安装可以选择[Windows x86-64 executable installer](https://www.python.org/ftp/python/3.7.0/python-3.7.0-amd64.exe)和[Windows x86 executable installer](https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe) 分别是对应64位的windows和32位的windows，选择适合的版本进行下载，下载完后，双击安装python.exe,出现以下界面
 
@@ -79,7 +81,7 @@
 
 ### Anaconda安装
 
-* 官方网站:https://www.anaconda.com/download/
+* 官方网站:[https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 
 首先进入官网
 
@@ -94,8 +96,6 @@
 > 温馨提示
 >
 > 建议使用anaconda
-
-
 
 
 
