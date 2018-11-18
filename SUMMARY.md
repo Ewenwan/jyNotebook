@@ -1,9 +1,5 @@
 # Summary
 
-## 笔记
-
-* [简介](README.md)
-
 ## 数据分析
 
 * [机器学习](ren-gong-zhi-neng/ji-qi-xue-xi.md)
