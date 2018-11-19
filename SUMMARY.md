@@ -565,9 +565,10 @@
     * 酷狗音乐
   * [视频](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/shi-pin.md)
     * 爱奇艺
-    * 优酷
+    * [优酷](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/shi-pin/you-ku.md)
     * 乐视
     * 暴风音影
+    * [腾讯](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/teng-xun.md)
   * 图片
 
 ## web开发
