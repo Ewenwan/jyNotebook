@@ -20,7 +20,7 @@
   * [科学计算库numpy](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-xue-ji-suan-ku-numpy.md)
   * [数据分析处理库pandas](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/pandas-ku.md)
   * [可视化库matpltlib](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-matpltlib.md)
-  * 可视化库Seaborn
+  * [可视化库Seaborn](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-seaborn.md)
 
 ## 科学计算
 
