@@ -559,7 +559,7 @@
 * [项目实战](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/README.md)
   * [微信公总号文章实战](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/yuan-ma.md)
   * [音乐](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/yin-le.md)
-    * 网易云音乐
+    * [网易云音乐](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/yin-le/wang-yi-yun-yin-le.md)
     * QQ音乐
     * 音悦台
     * 酷狗音乐
