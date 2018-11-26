@@ -914,6 +914,13 @@
     * [主存储器（下）](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/zhu-cun-chu-qi-ff08-xia-ff09.md)
     * [高速缓冲存储器](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/gao-su-huan-chong-cun-chu-qi.md)
     * [辅助存储器](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/fu-zhu-cun-chu-qi.md)
+  * [输入输出系统](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong.md)
+    * [概述](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/gai-shu.md)
+    * I/O设备
+    * I/O接口
+    * 程序查询方式
+    * 程序中断方式
+    * DMA方式
 * [计算机操作系统](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong.md)
   * [操作系统的基本概念](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/cao-zuo-xi-tong-de-ji-ben-gai-nian.md)
   * [操作系统的发展和分类](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/cao-zuo-xi-tong-de-fa-zhan-he-fen-lei.md)
