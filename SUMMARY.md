@@ -846,6 +846,10 @@
   * [常见问题](cao-zuo-xi-tong/windows/chang-jian-wen-ti.md)
     * [Windows10右键添加“在此处打开命令窗口”](cao-zuo-xi-tong/windows/chang-jian-wen-ti/windows10you-jian-tian-jia-201c-zai-ci-chu-da-kai-ming-ling-chuang-kou-201d.md)
 
+## Java
+
+* java 自定义排序
+
 ## 书籍
 
 * [数据结构与算法之美](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei.md)
@@ -928,8 +932,4 @@
   * [中断与异常](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/zhong-duan-yu-yi-chang.md)
   * [进程与线程](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/jin-cheng-de-ding-yi-zu-cheng-zu-zhi-fang-shi-te-zheng.md)
   * [处理机调度](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/chu-li-ji-diao-du.md)
-
-## Java
-
-* java 自定义排序
 
