@@ -916,7 +916,7 @@
     * [辅助存储器](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/fu-zhu-cun-chu-qi.md)
   * [输入输出系统](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong.md)
     * [概述](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/gai-shu.md)
-    * I/O设备
+    * [I/O设备](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/ioshe-bei.md)
     * I/O接口
     * 程序查询方式
     * 程序中断方式
