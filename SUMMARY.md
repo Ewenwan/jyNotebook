@@ -22,6 +22,10 @@
   * [可视化库matpltlib](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-matpltlib.md)
   * [可视化库Seaborn](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-seaborn.md)
 
+## Java
+
+* [java 自定义排序](java/java-zi-ding-yi-pai-xu.md)
+
 ## 科学计算
 
 * [numpy](ke-xue-ji-suan/numpy.md)
@@ -845,10 +849,6 @@
 * [Windows](cao-zuo-xi-tong/windows.md)
   * [常见问题](cao-zuo-xi-tong/windows/chang-jian-wen-ti.md)
     * [Windows10右键添加“在此处打开命令窗口”](cao-zuo-xi-tong/windows/chang-jian-wen-ti/windows10you-jian-tian-jia-201c-zai-ci-chu-da-kai-ming-ling-chuang-kou-201d.md)
-
-## Java
-
-* java 自定义排序
 
 ## 书籍
 
