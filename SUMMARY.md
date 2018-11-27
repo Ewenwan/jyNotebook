@@ -929,3 +929,7 @@
   * [进程与线程](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/jin-cheng-de-ding-yi-zu-cheng-zu-zhi-fang-shi-te-zheng.md)
   * [处理机调度](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/chu-li-ji-diao-du.md)
 
+## Java
+
+* java 自定义排序
+
