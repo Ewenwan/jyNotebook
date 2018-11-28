@@ -1,27 +1,5 @@
 # Summary
 
-## 数据分析
-
-* [机器学习](ren-gong-zhi-neng/ji-qi-xue-xi.md)
-  * [特征归一化](ren-gong-zhi-neng/ji-qi-xue-xi/te-zheng-gui-yi-hua.md)
-  * [多变量线性回归](ren-gong-zhi-neng/ji-qi-xue-xi/duo-bian-liang-xian-xing-hui-gui.md)
-  * [归一化答案](ren-gong-zhi-neng/ji-qi-xue-xi/gui-yi-hua-da-an.md)
-  * [logistic\|正则化](ren-gong-zhi-neng/ji-qi-xue-xi/logisticzheng-ze-hua.md)
-  * [神经网络学习](ren-gong-zhi-neng/ji-qi-xue-xi/shen-jing-wang-luo-xue-xi.md)
-* [深度学习](ren-gong-zhi-neng/shen-du-xue-xi.md)
-  * [TensorFlow 笔记](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji.md)
-    * [入门](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/ru-men.md)
-    * [下载及安装](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/xia-zai-ji-an-zhuang.md)
-    * [基本用法](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/ji-ben-yong-fa.md)
-    * [完整教程](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/wan-zheng-jiao-cheng.md)
-      * [总览](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/wan-zheng-jiao-cheng/zong-lan.md)
-      * [MNIST数据下载](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/wan-zheng-jiao-cheng/mnistshu-ju-xia-zai.md)
-* [机器学习系列](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie.md)
-  * [科学计算库numpy](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-xue-ji-suan-ku-numpy.md)
-  * [数据分析处理库pandas](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/pandas-ku.md)
-  * [可视化库matpltlib](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-matpltlib.md)
-  * [可视化库Seaborn](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-seaborn.md)
-
 ## Java
 
 * [java 自定义排序](java/java-zi-ding-yi-pai-xu.md)
@@ -29,32 +7,6 @@
 ## 绘画
 
 * Sai 教程
-
-## 科学计算
-
-* [numpy](ke-xue-ji-suan/numpy.md)
-  * [数组](ke-xue-ji-suan/numpy/shu-zu.md)
-  * [数组索引](ke-xue-ji-suan/numpy/shu-zu-suo-yin.md)
-  * [数据类型](ke-xue-ji-suan/shu-ju-lei-xing.md)
-  * [属性](ke-xue-ji-suan/numpy/shu-xing.md)
-  * [数学](ke-xue-ji-suan/numpy/shu-xue.md)
-  * [广播](ke-xue-ji-suan/numpy/guang-bo.md)
-  * [数学函数](ke-xue-ji-suan/numpy/shu-xue-han-shu.md)
-  * [数组操作](ke-xue-ji-suan/numpy/shu-zu-cao-zuo.md)
-* [pandas](ke-xue-ji-suan/pandas.md)
-* [matplotlib](ke-xue-ji-suan/matplotlib.md)
-  * [介绍](ke-xue-ji-suan/matplotlib/jie-shao.md)
-  * [基本使用](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong.md)
-    * [基本语法](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/ji-ben-yu-fa.md)
-    * [figure图像](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/figuretu-xiang.md)
-    * [设置坐标轴1](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/she-zhi-zuo-biao-zhou-1.md)
-    * [设置坐标轴2](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/she-zhi-zuo-biao-zhou-2.md)
-    * [Legend图例](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/legendtu-li.md)
-    * [Annotation](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/annotation.md)
-    * [tick能见度](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/tickneng-jian-du.md)
-    * [scatter散点图](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/scattersan-dian-tu.md)
-    * Bar柱状图
-    * contours等高线图
 
 ## 基础部分
 
@@ -257,6 +209,54 @@
   * [time 模块](ri-qi-he-shi-jian/time-mo-kuai.md)
   * [datetime 模块](ri-qi-he-shi-jian/datetime-mo-kuai.md)
   * [calendar模块](ri-qi-he-shi-jian/calendarmo-kuai.md)
+
+## 数据分析
+
+* [机器学习](ren-gong-zhi-neng/ji-qi-xue-xi.md)
+  * [特征归一化](ren-gong-zhi-neng/ji-qi-xue-xi/te-zheng-gui-yi-hua.md)
+  * [多变量线性回归](ren-gong-zhi-neng/ji-qi-xue-xi/duo-bian-liang-xian-xing-hui-gui.md)
+  * [归一化答案](ren-gong-zhi-neng/ji-qi-xue-xi/gui-yi-hua-da-an.md)
+  * [logistic\|正则化](ren-gong-zhi-neng/ji-qi-xue-xi/logisticzheng-ze-hua.md)
+  * [神经网络学习](ren-gong-zhi-neng/ji-qi-xue-xi/shen-jing-wang-luo-xue-xi.md)
+* [深度学习](ren-gong-zhi-neng/shen-du-xue-xi.md)
+  * [TensorFlow 笔记](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji.md)
+    * [入门](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/ru-men.md)
+    * [下载及安装](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/xia-zai-ji-an-zhuang.md)
+    * [基本用法](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/ji-ben-yong-fa.md)
+    * [完整教程](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/wan-zheng-jiao-cheng.md)
+      * [总览](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/wan-zheng-jiao-cheng/zong-lan.md)
+      * [MNIST数据下载](ren-gong-zhi-neng/shen-du-xue-xi/tensorflow-bi-ji/wan-zheng-jiao-cheng/mnistshu-ju-xia-zai.md)
+* [机器学习系列](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie.md)
+  * [科学计算库numpy](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-xue-ji-suan-ku-numpy.md)
+  * [数据分析处理库pandas](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/pandas-ku.md)
+  * [可视化库matpltlib](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-matpltlib.md)
+  * [可视化库Seaborn](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-seaborn.md)
+
+## 科学计算
+
+* [numpy](ke-xue-ji-suan/numpy.md)
+  * [数组](ke-xue-ji-suan/numpy/shu-zu.md)
+  * [数组索引](ke-xue-ji-suan/numpy/shu-zu-suo-yin.md)
+  * [数据类型](ke-xue-ji-suan/shu-ju-lei-xing.md)
+  * [属性](ke-xue-ji-suan/numpy/shu-xing.md)
+  * [数学](ke-xue-ji-suan/numpy/shu-xue.md)
+  * [广播](ke-xue-ji-suan/numpy/guang-bo.md)
+  * [数学函数](ke-xue-ji-suan/numpy/shu-xue-han-shu.md)
+  * [数组操作](ke-xue-ji-suan/numpy/shu-zu-cao-zuo.md)
+* [pandas](ke-xue-ji-suan/pandas.md)
+* [matplotlib](ke-xue-ji-suan/matplotlib.md)
+  * [介绍](ke-xue-ji-suan/matplotlib/jie-shao.md)
+  * [基本使用](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong.md)
+    * [基本语法](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/ji-ben-yu-fa.md)
+    * [figure图像](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/figuretu-xiang.md)
+    * [设置坐标轴1](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/she-zhi-zuo-biao-zhou-1.md)
+    * [设置坐标轴2](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/she-zhi-zuo-biao-zhou-2.md)
+    * [Legend图例](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/legendtu-li.md)
+    * [Annotation](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/annotation.md)
+    * [tick能见度](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/tickneng-jian-du.md)
+    * [scatter散点图](ke-xue-ji-suan/matplotlib/ji-ben-shi-yong/scattersan-dian-tu.md)
+    * Bar柱状图
+    * contours等高线图
 
 ## 进阶部分
 
