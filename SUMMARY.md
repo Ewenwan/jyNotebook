@@ -925,9 +925,9 @@
   * [输入输出系统](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong.md)
     * [概述](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/gai-shu.md)
     * [I/O设备](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/ioshe-bei.md)
-    * I/O接口
-    * 程序查询方式
-    * 程序中断方式
+    * [I/O接口](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/iojie-kou.md)
+    * [程序查询方式](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/cheng-xu-cha-xun-fang-shi.md)
+    * [程序中断方式](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/shu-ru-shu-chu-xi-tong/cheng-xu-zhong-duan-fang-shi.md)
     * DMA方式
 * [计算机操作系统](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong.md)
   * [操作系统的基本概念](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/cao-zuo-xi-tong-de-ji-ben-gai-nian.md)
