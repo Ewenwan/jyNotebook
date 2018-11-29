@@ -45,6 +45,9 @@ git clone https://github.com/CoderAngle/163spider.git
 git init 初始化文件目录
 
 git add * 添加所有目录文件
+git add RENAME.md
+
+git status 查看添加的状态
 
 git commit -m "提交的相关说明"
 
