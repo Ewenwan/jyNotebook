@@ -10,7 +10,7 @@
 
 #### 安装git
 
-官网:https://gitforwindows.org/
+官网:[https://gitforwindows.org/](https://gitforwindows.org/)
 
 如果下载速度慢，或者访问速度慢，也可以在电脑管家里的软件里下载
 
@@ -31,7 +31,6 @@ git clone https://github.com/CoderAngle/163spider.git
 #### 上传笔记
 
 * ##### 需要在github里注册一个账号
-
 * 新建一个仓库
 
 ![](/assets/g-2.2-2.png)
@@ -42,14 +41,14 @@ git clone https://github.com/CoderAngle/163spider.git
 
 ##### 上传
 
-
-
 ```
 git init 初始化文件目录
 
 git add * 添加所有目录文件
 
 git commit -m "提交的相关说明"
+
+git remote add origin https://github.com/CoderAngle/machine-learing-code.git  提交到哪里
 
 git push origin master -u 推送/上传内容
 
