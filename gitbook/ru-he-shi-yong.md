@@ -4,7 +4,7 @@ Gitbook 是一个很好的做笔记的软件
 
 ### 下载编辑器
 
-[_https://legacy.gitbook.com/editor_](https://legacy.gitbook.com/editor)
+官网:[_https://legacy.gitbook.com/editor_](https://legacy.gitbook.com/editor)
 
 ### 配置gitbook环境
 
@@ -18,6 +18,7 @@ Gitbook 是一个很好的做笔记的软件
 
 * 打开管理员 cmd
 * 输入命令，全局安装 gitbook
+
   ```
   npm install gitbook-cli -g
 
@@ -25,6 +26,7 @@ Gitbook 是一个很好的做笔记的软件
   ```
 
 * 三种换源方法
+
   ```
   1.通过config命令
   npm config set registry https://registry.npm.taobao.org –global 
@@ -38,6 +40,7 @@ Gitbook 是一个很好的做笔记的软件
   ```
 
 * ​更换源后，使用cnpm安装
+
   ```
   cnpm install gitbook-cli -g
   ```
