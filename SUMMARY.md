@@ -7,6 +7,8 @@
 ## Gitbook
 
 * [如何使用](gitbook/ru-he-shi-yong.md)
+* [上传笔记](gitbook/shang-chuan-bi-ji.md)
+* [常见问题](gitbook/chang-jian-wen-ti.md)
 
 ## 绘画
 
