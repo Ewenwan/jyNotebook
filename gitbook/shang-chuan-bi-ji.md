@@ -35,6 +35,8 @@ git clone https://github.com/CoderAngle/163spider.git
 
 ![](/assets/g-2.2-2.png)
 
+
+
 ![](/assets/g-2.2-3.png)
 
 新建好后，可以看到一些教你如何上传的方法
