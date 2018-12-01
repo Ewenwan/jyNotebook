@@ -906,6 +906,7 @@
   * [20 \| 散列表（下）：为什么散列表和链表经常会一起使用？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/20-san-lie-biao-ff08-xia-ff09-ff1a-wei-shi-yao-san-lie-biao-he-lian-biao-jing-chang-hui-yi-qi-shi-yong-ff1f.md)
   * [21 \| 哈希算法（上）：如何防止数据库中的用户信息被脱库？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/21-ha-xi-suan-fa-ff08-shang-ff09-ff1a-ru-he-fang-zhi-shu-ju-ku-zhong-de-yong-hu-xin-xi-bei-tuo-ku-ff1f.md)
   * [22 \| 哈希算法（下）：哈希算法在分布式系统中有哪些应用？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/22-ha-xi-suan-fa-ff08-xia-ff09-ff1a-ha-xi-suan-fa-zai-fen-bu-shi-xi-tong-zhong-you-na-xie-ying-yong-ff1f.md)
+  * [23 \| 二叉树基础（上）：什么样的二叉树适合用数组来存储？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/23-er-cha-shu-ji-chu-ff08-shang-ff09-ff1a-shi-yao-yang-de-er-cha-shu-shi-he-yong-shu-zu-lai-cun-chu-ff1f.md)
 * [计算机组成原理](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li.md)
   * [计算机系统概论](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun.md)
     * [计算机系统简介](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun/ji-suan-ji-xi-tong-jian-jie.md)
