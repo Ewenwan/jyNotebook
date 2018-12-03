@@ -9,7 +9,7 @@
 
 * ipython nbconvert --to latex xxx.ipynb
 
-* 修改tex
+* 修改tex 或者 修改`E:\Anaconda3\Lib\site-packages\nbconvert\templates\latex\article.tplx`
 
   ```
   双击打开转换的文件在\documentclass{article}后面插入 

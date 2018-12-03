@@ -238,6 +238,11 @@
   * [数据分析处理库pandas](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/pandas-ku.md)
   * [可视化库matpltlib](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-matpltlib.md)
   * [可视化库Seaborn](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ke-shi-hua-ku-seaborn.md)
+  * [线性回归算法原理推导](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/xian-xing-hui-gui-suan-fa-yuan-li-tui-dao.md)
+  * [梯度下降策略](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/ti-du-xia-jiang-ce-lve.md)
+  * [逻辑回归算法](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/luo-ji-hui-gui-suan-fa.md)
+  * [案例实战：Python实现逻辑回归与梯度下降策略](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/an-li-shi-zhan-ff1a-python-shi-xian-luo-ji-hui-gui-yu-ti-du-xia-jiang-ce-lve.md)
+  * [项目实战-交易数据异常检测](ren-gong-zhi-neng/ji-qi-xue-xi-xi-lie/xiang-mu-shi-6218-jiao-yi-shu-ju-yi-chang-jian-ce.md)
 
 ## 科学计算
 
