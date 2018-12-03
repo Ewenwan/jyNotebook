@@ -22,6 +22,7 @@
   * [pycharm 基本用法](pycharm-ji-ben-cao-zuo.md)
   * [安装 Jupyter](an-zhuang-jupyter.md)
     * [jupyter如何生成PDF文件](an-zhuang-jupyter/jupyterru-he-sheng-cheng-pdf-wen-jian.md)
+    * [数学公式](an-zhuang-jupyter/shu-xue-gong-shi.md)
   * [虚拟环境](xu-ni-huan-jing.md)
   * [交互式解释器](hello-world.md)
   * [数据类型](bian-liang-lei-xing.md)
