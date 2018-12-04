@@ -7,6 +7,7 @@
 ## MATLAB
 
 * [如何在jupyter中集成MATLAB](matlab/ru-he-zai-jupyter-zhong-ji-cheng-matlab.md)
+* [matlab 快速入门](matlab/matlab-kuai-su-ru-men.md)
 
 ## Gitbook
 
