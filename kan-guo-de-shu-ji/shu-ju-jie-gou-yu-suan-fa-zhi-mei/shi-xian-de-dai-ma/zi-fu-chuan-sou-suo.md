@@ -73,71 +73,71 @@ using namespace std;
 
 int bm(string a,string b)
 {
-	int array[MAXN];
-	int suffix[MAXN];
-	bool prefix[MAXN];
-	int n = a.size();
-	int m = b.size();
-	
-	memset(array,-1,sizeof(array));
-	memset(suffix,-1,sizeof(suffix));
-	memset(prefix,false,sizeof(prefix));
-	
-	for(int i=0;i<m-1;i++)
-	{
-		int j=i;
-		int k=0;
-		while(j>=0 && b[j] == b[m-1-k])
-		{
-			--j;
-			++k;
-			suffix[k] = j+1;
-		}
-		if(j == -1)
-			prefix[k] = true;
-	}
-	
-	for(int i=0;i<m;i++)
-		array[int(b[i])] = i;
-	
-	int i=0;
-	while(i<=n-m)
-	{
-		int j;
-		for(j=m-1;j>=0;j--)
-			if(a[i+j] != b[j]) break;
-		
-		if(j<0)
-			return i;
-		
-		int x = j-array[(int)a[i+j]];
-		int y = 0;
-		if(j < m-1)
-		{
-			y = m;
-			int k = m-1-j;
-			if(suffix[k] != -1)
-				y = j-suffix[k]+1;
-			else
-				for(int r=j+2;r<=m-1;++r)
-					if(prefix[m-r] == true)
-					{
-						y = r;
-						break;
-					}
-		}
-		
-		i=i+(j-array[(int)a[i+j]]);
-	}
-	return -1;
+    int array[MAXN];
+    int suffix[MAXN];
+    bool prefix[MAXN];
+    int n = a.size();
+    int m = b.size();
+
+    memset(array,-1,sizeof(array));
+    memset(suffix,-1,sizeof(suffix));
+    memset(prefix,false,sizeof(prefix));
+
+    for(int i=0;i<m-1;i++)
+    {
+        int j=i;
+        int k=0;
+        while(j>=0 && b[j] == b[m-1-k])
+        {
+            --j;
+            ++k;
+            suffix[k] = j+1;
+        }
+        if(j == -1)
+            prefix[k] = true;
+    }
+
+    for(int i=0;i<m;i++)
+        array[int(b[i])] = i;
+
+    int i=0;
+    while(i<=n-m)
+    {
+        int j;
+        for(j=m-1;j>=0;j--)
+            if(a[i+j] != b[j]) break;
+
+        if(j<0)
+            return i;
+
+        int x = j-array[(int)a[i+j]];
+        int y = 0;
+        if(j < m-1)
+        {
+            y = m;
+            int k = m-1-j;
+            if(suffix[k] != -1)
+                y = j-suffix[k]+1;
+            else
+                for(int r=j+2;r<=m-1;++r)
+                    if(prefix[m-r] == true)
+                    {
+                        y = r;
+                        break;
+                    }
+        }
+
+        i=i+(j-array[(int)a[i+j]]);
+    }
+    return -1;
 }
 
 int main()
 {
-	string a,b;
-	cin>>a>>b;
-	cout<<bm(a,b);
-	return 0;
+    string a,b;
+    cin>>a>>b;
+    cout<<bm(a,b);
+    return 0;
 }
 ```
 
