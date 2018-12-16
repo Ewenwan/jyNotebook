@@ -31,8 +31,9 @@ int kmp(char a[],char b[],int next[])
 		if(b[j] == a[i])
 			j++;
 		if(j == m)
-			cout<<i-m+1<<endl;
+			return i-m+1;
 	}
+	return -1;
 }
 
 int main()
@@ -40,7 +41,7 @@ int main()
 	int next[MAXN] = {0};
 	char a[MAXN],b[MAXN];
 	cin>>a>>b;
-	kmp(a,b,next);
+	cout<<kmp(a,b,next)<<endl;
 	return 0;
 }
 ```
