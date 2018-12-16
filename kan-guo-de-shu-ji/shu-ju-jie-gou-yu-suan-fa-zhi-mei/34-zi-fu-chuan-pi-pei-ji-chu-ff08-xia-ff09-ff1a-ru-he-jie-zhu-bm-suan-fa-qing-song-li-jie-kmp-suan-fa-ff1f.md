@@ -6,10 +6,6 @@
 
 ![](https://static001.geekbang.org/resource/image/18/8a/18d68da702d4e53998f526c8e7732d8a.jpg)
 
-
-
-
-
 上一节我们讲了 BM 算法，尽管它很复杂，也不好理解，但却是工程中非常常用的一种高效字符串匹配算法。有统计说，它是最高效、最常用的字符串匹配算法。不过，在所有的字符串匹配算法里，要说最知名的一种的话，那就非 KMP 算法莫属。很多时候，提到字符串匹配，我们首先想到的就是 KMP 算法。
 
 尽管在实际的开发中，我们几乎不大可能自己亲手实现一个 KMP 算法。但是，学习这个算法的思想，作为让你开拓眼界、锻炼下逻辑思维，也是极好的，所以我觉得有必要拿出来给你讲一讲。不过，KMP 算法是出了名的不好懂。我会尽力把它讲清楚，但是你自己也要多动动脑子。
@@ -55,15 +51,8 @@ KMP 算法就是在试图寻找一种规律：在模式串和主串匹配的过�
 public static int kmp(char[] a, int n, char[] b, int m) {
   int[] next = getNexts(b, m);
   int j = 0;
-  for (int i = 0; i 
-<
- n; ++i) {
-    while (j 
->
- 0 
-&
-&
- a[i] != b[j]) { // 一直找到 a[i] 和 b[j]
+  for (int i = 0; i < n; ++i) {
+    while (j > 0 && a[i] != b[j]) { // 一直找到 a[i] 和 b[j]
       j = next[j - 1] + 1;
     }
     if (a[i] == b[j]) {
@@ -112,13 +101,8 @@ private static int[] getNexts(char[] b, int m) {
   int[] next = new int[m];
   next[0] = -1;
   int k = -1;
-  for (int i = 1; i 
-<
- m; ++i) {
-    while (k != -1 
-&
-&
- b[k + 1] != b[i]) {
+  for (int i = 1; i < m; ++i) {
+    while (k != -1 && b[k + 1] != b[i]) {
       k = next[k];
     }
     if (b[k + 1] == b[i]) {
