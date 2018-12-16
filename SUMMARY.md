@@ -944,6 +944,7 @@
   * [33 \| 字符串匹配基础（中）：如何实现文本编辑器中的查找功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/33-zi-fu-chuan-pi-pei-ji-chu-ff08-zhong-ff09-ff1a-ru-he-shi-xian-wen-ben-bian-ji-qi-zhong-de-cha-zhao-gong-neng-ff1f.md)
   * [34 \| 字符串匹配基础（下）：如何借助BM算法轻松理解KMP算法？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/34-zi-fu-chuan-pi-pei-ji-chu-ff08-xia-ff09-ff1a-ru-he-jie-zhu-bm-suan-fa-qing-song-li-jie-kmp-suan-fa-ff1f.md)
   * [35 \| Trie树：如何实现搜索引擎的搜索关键词提示功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/35-trieshu-ff1a-ru-he-shi-xian-sou-suo-yin-qing-de-sou-suo-guan-jian-ci-ti-shi-gong-neng-ff1f.md)
+  * [36 \| AC自动机：如何用多模式串匹配实现敏感词过滤功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/36-aczi-dong-ji-ff1a-ru-he-yong-duo-mo-shi-chuan-pi-pei-shi-xian-min-gan-ci-guo-lv-gong-neng-ff1f.md)
 * [计算机组成原理](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li.md)
   * [计算机系统概论](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun.md)
     * [计算机系统简介](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun/ji-suan-ji-xi-tong-jian-jie.md)
