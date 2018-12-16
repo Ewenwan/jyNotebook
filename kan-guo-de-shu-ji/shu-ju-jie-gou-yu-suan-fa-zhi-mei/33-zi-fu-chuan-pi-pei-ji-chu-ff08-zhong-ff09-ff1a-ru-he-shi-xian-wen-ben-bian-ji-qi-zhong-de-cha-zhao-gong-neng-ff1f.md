@@ -1,5 +1,3 @@
-
-
 # 33 \| 字符串匹配基础（中）：如何实现文本编辑器中的查找功能？
 
 2018-12-07
@@ -7,8 +5,6 @@
 王争
 
 ![](https://static001.geekbang.org/resource/image/4f/16/4f5a919c1ad1d3b83c98cf94215bba16.jpg)
-
-
 
 ### 
 
@@ -18,7 +14,7 @@
 
 对于工业级的软件开发来说，我们希望算法尽可能的高效，并且在极端情况下，性能也不要退化的太严重。那么，**对于查找功能是重要功能的软件来说，比如一些文本编辑器，它们的查找功能都是用哪种算法来实现的呢？有没有比 BF 算法和 RK 算法更加高效的字符串匹配算法呢？**
 
-今天，我们就来学习 BM（Boyer-Moore）算法。它是一种非常高效的字符串匹配算法，有实验统计，它的性能是著名的[KMP 算法](https://zh.wikipedia.org/wiki/%E5%85%8B%E5%8A%AA%E6%96%AF-%E8%8E%AB%E9%87%8C%E6%96%AF-%E6%99%AE%E6%8B%89%E7%89%B9%E7%AE%97%E6%B3%95)的 3 到 4 倍**。**BM 算法的原理很复杂，比较难懂，学起来会比较烧脑，我会尽量给你讲清楚，同时也希望你做好打硬仗的准备。好，现在我们正式开始！
+今天，我们就来学习 BM（Boyer-Moore）算法。它是一种非常高效的字符串匹配算法，有实验统计，它的性能是著名的[KMP 算法](https://zh.wikipedia.org/wiki/克努斯-莫里斯-普拉特算法)的 3 到 4 倍**。**BM 算法的原理很复杂，比较难懂，学起来会比较烧脑，我会尽量给你讲清楚，同时也希望你做好打硬仗的准备。好，现在我们正式开始！
 
 ## BM 算法的核心思想
 
@@ -117,17 +113,40 @@ BM 算法包含两部分，分别是**坏字符规则**（bad character rule）�
 如果将上面的过程翻译成代码，就是下面这个样子。其中，变量 b 是模式串，m 是模式串的长度，bc 表示刚刚讲的散列表。
 
 ```
+private static final int SIZE = 256; // 全局变量或成员变量
+private void generateBC(char[] b, int m, int[] bc) {
+  for (int i = 0; i < SIZE; ++i) {
+    bc[i] = -1; // 初始化 bc
+  }
+  for (int i = 0; i < m; ++i) {
+    int ascii = (int)b[i]; // 计算 b[i] 的 ASCII 值
+    bc[ascii] = i;
+  }
+}
 
-
-复制代码
 ```
 
 掌握了坏字符规则之后，我们先把 BM 算法代码的大框架写好，先不考虑好后缀规则，仅用坏字符规则，并且不考虑 si-xi 计算得到的移动位数可能会出现负数的情况。
 
 ```
+public int bm(char[] a, int n, char[] b, int m) {
+  int[] bc = new int[SIZE]; // 记录模式串中每个字符最后出现的位置
+  generateBC(b, m, bc); // 构建坏字符哈希表
+  int i = 0; // i 表示主串与模式串对齐的第一个字符
+  while (i <= n - m) {
+    int j;
+    for (j = m - 1; j >= 0; --j) { // 模式串从后往前匹配
+      if (a[i+j] != b[j]) break; // 坏字符对应模式串中的下标是 j
+    }
+    if (j < 0) {
+      return i; // 匹配成功，返回主串与模式串第一个匹配的字符的位置
+    }
+    // 这里等同于将模式串往后滑动 j-bc[(int)a[i+j]] 位
+    i = i + (j - bc[(int)a[i+j]]); 
+  }
+  return -1;
+}
 
-
-复制代码
 ```
 
 代码里的注释已经很详细了，我就不再赘述了。不过，为了你方便理解，我画了一张图，将其中的一些关键变量标注在上面了，结合着图，代码应该更好理解。
@@ -173,9 +192,25 @@ BM 算法包含两部分，分别是**坏字符规则**（bad character rule）�
 我们把 suffix 数组和 prefix 数组的计算过程，用代码实现出来，就是下面这个样子：
 
 ```
+// b 表示模式串，m 表示长度，suffix，prefix 数组事先申请好了
+private void generateGS(char[] b, int m, int[] suffix, boolean[] prefix) {
+  for (int i = 0; i < m; ++i) { // 初始化
+    suffix[i] = -1;
+    prefix[i] = false;
+  }
+  for (int i = 0; i < m - 1; ++i) { // b[0, i]
+    int j = i;
+    int k = 0; // 公共后缀子串长度
+    while (j >= 0 && b[j] == b[m-1-k]) { // 与 b[0, m-1] 求公共后缀子串
+      --j;
+      ++k;
+      suffix[k] = j+1; //j+1 表示公共后缀子串在 b[0, i] 中的起始下标
+    }
+    i
+    if (j == -1) prefix[k] = true; // 如果公共后缀子串也是模式串的前缀子串
+  }
+}
 
-
-复制代码
 ```
 
 有了这两个数组之后，我们现在来看，**在模式串跟主串匹配的过程中，遇到不能匹配的字符时，如何根据好后缀规则，计算模式串往后滑动的位数？**
@@ -195,9 +230,44 @@ BM 算法包含两部分，分别是**坏字符规则**（bad character rule）�
 至此，好后缀规则的代码实现我们也讲完了。我们把好后缀规则加到前面的代码框架里，就可以得到 BM 算法的完整版代码实现。
 
 ```
+// a,b 表示主串和模式串；n，m 表示主串和模式串的长度。
+public int bm(char[] a, int n, char[] b, int m) {
+  int[] bc = new int[SIZE]; // 记录模式串中每个字符最后出现的位置
+  generateBC(b, m, bc); // 构建坏字符哈希表
+  int[] suffix = new int[m];
+  boolean[] prefix = new boolean[m];
+  generateGS(b, m, suffix, prefix);
+  int i = 0; // j 表示主串与模式串匹配的第一个字符
+  while (i <= n - m) {
+    int j;
+    for (j = m - 1; j >= 0; --j) { // 模式串从后往前匹配
+      if (a[i+j] != b[j]) break; // 坏字符对应模式串中的下标是 j
+    }
+    if (j < 0) {
+      return i; // 匹配成功，返回主串与模式串第一个匹配的字符的位置
+    }
+    int x = j - bc[(int)a[i+j]];
+    int y = 0;
+    if (j < m-1) { // 如果有好后缀的话
+      y = moveByGS(j, m, suffix, prefix);
+    }
+    i = i + Math.max(x, y);
+  }
+  return -1;
+}
 
-
-复制代码
+// j 表示坏字符对应的模式串中的字符下标 ; m 表示模式串长度
+private int moveByGS(int j, int m, int[] suffix, boolean[] prefix) {
+  int k = m - 1 - j; // 好后缀长度
+  if (suffix[k] != -1) return j - suffix[k] +1;
+  for (int r = j+2; r <= m-1; ++r) {
+    if (prefix[m-r] == true) {
+      return r;
+    }
+  }
+  return m;
+}
+
 ```
 
 ## BM 算法的性能分析及优化
