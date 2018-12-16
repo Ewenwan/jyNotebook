@@ -901,6 +901,8 @@
     * [堆排序](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/dui-pai-xu.md)
     * [优先队列](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/you-xian-dui-lie.md)
     * [邻接表](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/lin-jie-biao.md)
+    * [深度优先搜索](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/shen-du-you-xian-sou-suo.md)
+    * [广度优先搜索](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/guang-du-you-xian-sou-suo.md)
   * [开篇词 \| 从今天起，跨过“数据结构与算法”这道坎](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/kai-pian-ci-cong-jin-tian-qi-ff0c-kua-guo-201c-shu-ju-jie-gou-yu-suan-fa-201d-zhe-dao-kan.md)
   * [01 \| 为什么要学习数据结构和算法？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/01-wei-shi-yao-yao-xue-xi-shu-ju-jie-gou-he-suan-fa-ff1f.md)
   * [02 \| 如何抓住重点，系统高效地学习数据结构与算法？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/02-ru-he-zhua-zhu-zhong-dian-ff0c-xi-tong-gao-xiao-di-xue-xi-shu-ju-jie-gou-yu-suan-fa-ff1f.md)
