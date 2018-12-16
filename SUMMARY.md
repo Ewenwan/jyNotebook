@@ -934,6 +934,7 @@
   * [28 \| 堆和堆排序：为什么说堆排序没有快速排序快？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/28-dui-he-dui-pai-xu-ff1a-wei-shi-yao-shuo-dui-pai-xu-mei-you-kuai-su-pai-xu-kuai-ff1f.md)
   * [29 \| 堆的应用：如何快速获取到Top 10最热门的搜索关键词？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/29-dui-de-ying-yong-ff1a-ru-he-kuai-su-huo-qu-dao-top-10-zui-re-men-de-sou-suo-guan-jian-ci-ff1f.md)
   * [30 \| 图的表示：如何存储微博、微信等社交网络中的好友关系？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/30-tu-de-biao-shi-ff1a-ru-he-cun-chu-wei-bo-3001-wei-xin-deng-she-jiao-wang-luo-zhong-de-hao-you-guan-xi-ff1f.md)
+  * [31 \| 深度和广度优先搜索：如何找出社交网络中的三度好友关系？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/31-shen-du-he-guang-du-you-xian-sou-suo-ff1a-ru-he-zhao-chu-she-jiao-wang-luo-zhong-de-san-du-hao-you-guan-xi-ff1f.md)
 * [计算机组成原理](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li.md)
   * [计算机系统概论](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun.md)
     * [计算机系统简介](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun/ji-suan-ji-xi-tong-jian-jie.md)
