@@ -173,14 +173,16 @@ min:最小值
 
 * 分页操作 \*\*\*
 
-  SELECT \* FROM table LIMIT \[offset,\] rows \| `rows OFFSET offset`   
+  SELECT \* FROM table LIMIT \[offset,\] rows \| `rows OFFSET offset`  
     \(LIMIT offset, `length`\)
 
 ```
 例如:
 select * from table limit 0,10;//检索第1行-10行
 
-select * from table limie 5,-1;//检索第6行至最后
+select * from table limit 5,-1;//检索第6行至最后
+
+select * from table limit 5;//检索前5行数据
 ```
 
 ---
