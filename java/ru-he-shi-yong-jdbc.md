@@ -64,7 +64,6 @@ this.conn = DriverManager.getConnection(this.URL, this.USER, this.PASSWORD);
 ```
 conn.createStatement();
 conn.prepareStatement();
-
 ```
 
 
