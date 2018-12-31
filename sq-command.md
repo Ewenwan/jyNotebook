@@ -45,8 +45,9 @@
 
 ---
 
+* '建表'
+
 ```
-'建表'
 create table 表名(
     列名>数据类型 [列级完整性约束定义],
     ...,
@@ -76,19 +77,30 @@ create table 表名(
     on delete on action:限制删除。表示当删除主表中的记录时，如果在子表中有对这些记录的主码值的引用，则拒绝删除主表中的记录
     on update cascade:级联更新。表示当上删除主表中的有子表引用的列值时，如果在子表中有对这个列值的引用，则一起更改
     on update no action:限制更新，拒绝更新
+```
 
-'删除表'
+
+
+* '删除表'
+
+```
 drop table 表名,[....]
+```
 
-'修改表'
+
+
+* '修改表'
+
+```
 alter table 表名
     alter column <列名>新数据类型   -- 修改列定义
     add <列名>数据类型约束定义       -- 添加新列
     drop column <列名>             -- 删除列
     add [constraint <约束名> 约束定义]  -- 添加约束
     drop [constraint <约束名>]        -- 删除约束
-
-
+    
+    
+    
 '修改表 - 主码约束'
 alter table 表名
     add [constraint <约束名>]
@@ -109,6 +121,8 @@ alter table 表名
     add constraint <约束名>
     default 默认值 for 列名
 ```
+
+
 
 ---
 
@@ -162,6 +176,15 @@ avg:计算平均值
 max:最大值
 min:最小值
 ```
+
+* 分页操作 \*\*\*
+
+    SELECT * FROM table LIMIT [offset,] rows | `rows OFFSET offset ` 
+    (LIMIT offset, `length`)
+
+
+    例如:
+    select * from table limit 0,10;//检索第1行-10行
 
 ---
 
