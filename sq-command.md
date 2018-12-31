@@ -171,6 +171,23 @@ max:最大值
 min:最小值
 ```
 
+* 正则匹配
+
+```
+eg1: 从info表name字段中查询以L开头的记录 
+
+select * from info where name regexp '^L'; 
+
+eg2: 从info表name字段中查询以aaa开头的记录 
+
+select * from info where name regexp '^aaa';
+
+作者：tianmac
+链接：https://www.jianshu.com/p/0a7e3055a01f
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+```
+
 * 分页操作 \*\*\*
 
   SELECT \* FROM table LIMIT \[offset,\] rows \| `rows OFFSET offset`  
