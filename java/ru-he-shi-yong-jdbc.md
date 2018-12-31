@@ -34,8 +34,6 @@ database server:数据库服务
 * 流程:命令和结构都会经过该层
 * 吸引:可以增加企业数据的访问控制，以及多种类型的更新；另外可以简化应用部署，并在多数情况下有性能的优势
 
-
-
 ### 开始操作数据库
 
 * 导入mysql的jdbc的jar包
@@ -61,9 +59,13 @@ private String PASSWORD = "123456";
 this.conn = DriverManager.getConnection(this.URL, this.USER, this.PASSWORD);
 ```
 
+* 创建Statement\PreparedStatement兑现
 
+```
+conn.createStatement();
+conn.prepareStatement();
 
-
+```
 
 
 
