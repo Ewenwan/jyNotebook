@@ -40,5 +40,9 @@ public class UserDemo {
 }
 ```
 
+* private:私有
+* public:公开
+* setter和getter:设置和得到
+
 
 
