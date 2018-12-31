@@ -3,6 +3,7 @@
 ## Java
 
 * [java 自定义排序](java/java-zi-ding-yi-pai-xu.md)
+* [如何使用JDBC](java/ru-he-shi-yong-jdbc.md)
 
 ## MATLAB
 
