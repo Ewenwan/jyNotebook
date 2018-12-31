@@ -79,15 +79,11 @@ create table 表名(
     on update no action:限制更新，拒绝更新
 ```
 
-
-
 * '删除表'
 
 ```
 drop table 表名,[....]
 ```
-
-
 
 * '修改表'
 
@@ -98,9 +94,9 @@ alter table 表名
     drop column <列名>             -- 删除列
     add [constraint <约束名> 约束定义]  -- 添加约束
     drop [constraint <约束名>]        -- 删除约束
-    
-    
-    
+
+
+
 '修改表 - 主码约束'
 alter table 表名
     add [constraint <约束名>]
@@ -121,8 +117,6 @@ alter table 表名
     add constraint <约束名>
     default 默认值 for 列名
 ```
-
-
 
 ---
 
@@ -179,12 +173,15 @@ min:最小值
 
 * 分页操作 \*\*\*
 
-    SELECT * FROM table LIMIT [offset,] rows | `rows OFFSET offset ` 
-    (LIMIT offset, `length`)
+  SELECT \* FROM table LIMIT \[offset,\] rows \| `rows OFFSET offset`   
+    \(LIMIT offset, `length`\)
 
+```
+例如:
+select * from table limit 0,10;//检索第1行-10行
 
-    例如:
-    select * from table limit 0,10;//检索第1行-10行
+select * from table limie 5,-1;//检索第6行至最后
+```
 
 ---
 
