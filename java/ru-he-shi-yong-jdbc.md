@@ -69,92 +69,91 @@ conn.prepareStatement();
 * 添加
 
 ```
-	public void insert(String name,int age) throws SQLException
-	{
-		/*
-		 第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：
+    public void insert(String name,int age) throws SQLException
+    {
+        /*
+         第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：
 
-		INSERT INTO table_name
-		VALUES (value1,value2,value3,...);
-		第二种形式需要指定列名及被插入的值：
-		
-		INSERT INTO table_name (column1,column2,column3,...)
-		VALUES (value1,value2,value3,...);
-		 * */
-		String sql = "insert into people values('"+name+"',"+age+")";
-		System.out.println(sql);
-		this.stmt.execute(sql);
-		this.close();
-	}
+        INSERT INTO table_name
+        VALUES (value1,value2,value3,...);
+        第二种形式需要指定列名及被插入的值：
+
+        INSERT INTO table_name (column1,column2,column3,...)
+        VALUES (value1,value2,value3,...);
+         * */
+        String sql = "insert into people values('"+name+"',"+age+")";
+        System.out.println(sql);
+        this.stmt.execute(sql);
+        this.close();
+    }
 ```
 
 * 删除
 
 ```
-	public void del(String name) throws SQLException
-	{
-		/*
-		 DELETE FROM table_name
-		 WHERE some_column=some_value;
-		 * */
-		String sql = "delete from people where name='"+name+"'";
-		this.stmt.execute(sql);
-		this.close();
-	}
+    public void del(String name) throws SQLException
+    {
+        /*
+         DELETE FROM table_name
+         WHERE some_column=some_value;
+         * */
+        String sql = "delete from people where name='"+name+"'";
+        this.stmt.execute(sql);
+        this.close();
+    }
 ```
 
 * 更新
 
 ```
-	public void update(String name,int age) throws SQLException
-	{
-		/*
-		   UPDATE table_name
-		   SET column1=value1,column2=value2,...
-		   WHERE some_column=some_value;
-		*/
-		String sql = "update people set age= "+age+" where name='"+name+"'";
-		this.stmt.executeUpdate(sql);
-		this.close();
-	}
-	
+    public void update(String name,int age) throws SQLException
+    {
+        /*
+           UPDATE table_name
+           SET column1=value1,column2=value2,...
+           WHERE some_column=some_value;
+        */
+        String sql = "update people set age= "+age+" where name='"+name+"'";
+        this.stmt.executeUpdate(sql);
+        this.close();
+    }
 ```
 
 * 查询
 
 ```
-	public void find(String name) throws SQLException
-	{
-		String sql = "select * from people where name='"+name+"'";
-		this.rs = this.stmt.executeQuery(sql);
-		while(rs.next())
-			System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
-		this.close();
-	}
-	
-	public void findall() throws SQLException
-	{
-		String sql = "select * from people;";
-		this.rs = this.stmt.executeQuery(sql);
-		while(rs.next())
-			System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
-		this.close();
-	}
+    public void find(String name) throws SQLException
+    {
+        String sql = "select * from people where name='"+name+"'";
+        this.rs = this.stmt.executeQuery(sql);
+        while(rs.next())
+            System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
+        this.close();
+    }
+
+    public void findall() throws SQLException
+    {
+        String sql = "select * from people;";
+        this.rs = this.stmt.executeQuery(sql);
+        while(rs.next())
+            System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
+        this.close();
+    }
 ```
 
 * 最后一定要记住关闭
 
 ```
-	public void close() throws SQLException
-	{	
-		if(rs != null)
-			this.rs.close();
-		if(stmt != null)
-			this.stmt.close();
-		if(conn != null)
-		this.conn.close();
-		
-	}
+    public void close() throws SQLException
+    {    
+        if(rs != null)
+            this.rs.close();
+        if(stmt != null)
+            this.stmt.close();
+        if(conn != null)
+        this.conn.close();
+
+    }
 ```
 
 * 完整sql实例
@@ -164,123 +163,122 @@ package com.train.demo1;
 import java.sql.*;
 
 public class sqlDemo {
-	
-	String driver = "com.mysql.jdbc.Driver";
-	
-	// jdbc数据库连接地址
-	private String URL = "jdbc:mysql://localhost:3306/train_sql";
-	// 用户名
-	private String USER = "root";
-	// 密码
-	private String PASSWORD = "123456";
-	
-	Connection conn;
-	Statement stmt;
-	ResultSet rs;
-	
-	
-	
-	public sqlDemo() throws ClassNotFoundException, SQLException
-	{
-		// 加载驱动
-		Class.forName(this.driver);
-		// 获得数据库连接
-		this.conn = DriverManager.getConnection(this.URL, this.USER, this.PASSWORD);
-		// 实例化createStatement对象和ResulSet对象,开始操作数据库
-		this.stmt = conn.createStatement();
-		this.rs = null;
-		
-		this.start();
-	}
-	
-	public void start() throws SQLException
-	{
-		// 创建表，字段为name和age
-		String sql = "create table people(name char(50),age int)";
-		// 判断某表是否存在
-		String exists = "SELECT COUNT(*) as number FROM information_schema.TABLES WHERE TABLE_NAME='people'";
-		// 返回查询结果
-		ResultSet e = this.stmt.executeQuery(exists);
-		// 定义flag标志，默认未创建
-		int flag = 0;
-		// 判断下一个是否有数据
-		if(e.next())
-			flag = e.getInt("number");
-		if(flag == 0)
-			stmt.execute(sql);
-	}
-	
-	public void insert(String name,int age) throws SQLException
-	{
-		/*
-		 第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：
 
-		INSERT INTO table_name
-		VALUES (value1,value2,value3,...);
-		第二种形式需要指定列名及被插入的值：
-		
-		INSERT INTO table_name (column1,column2,column3,...)
-		VALUES (value1,value2,value3,...);
-		 * */
-		String sql = "insert into people values('"+name+"',"+age+")";
-		System.out.println(sql);
-		this.stmt.execute(sql);
-		this.close();
-	}
-	
-	public void del(String name) throws SQLException
-	{
-		/*
-		 DELETE FROM table_name
-		 WHERE some_column=some_value;
-		 * */
-		String sql = "delete from people where name='"+name+"'";
-		this.stmt.execute(sql);
-		this.close();
-	}
-	
-	public void find(String name) throws SQLException
-	{
-		String sql = "select * from people where name='"+name+"'";
-		this.rs = this.stmt.executeQuery(sql);
-		while(rs.next())
-			System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
-		this.close();
-	}
-	
-	public void findall() throws SQLException
-	{
-		String sql = "select * from people;";
-		this.rs = this.stmt.executeQuery(sql);
-		while(rs.next())
-			System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
-		this.close();
-	}
-	
-	public void update(String name,int age) throws SQLException
-	{
-		/*
-		   UPDATE table_name
-		   SET column1=value1,column2=value2,...
-		   WHERE some_column=some_value;
-		*/
-		String sql = "update people set age= "+age+" where name='"+name+"'";
-		this.stmt.executeUpdate(sql);
-		this.close();
-	}
-	
-	public void close() throws SQLException
-	{	
-		if(rs != null)
-			this.rs.close();
-		if(stmt != null)
-			this.stmt.close();
-		if(conn != null)
-		this.conn.close();
-		
-	}
+    String driver = "com.mysql.jdbc.Driver";
+
+    // jdbc数据库连接地址
+    private String URL = "jdbc:mysql://localhost:3306/train_sql";
+    // 用户名
+    private String USER = "root";
+    // 密码
+    private String PASSWORD = "123456";
+
+    Connection conn;
+    Statement stmt;
+    ResultSet rs;
+
+
+
+    public sqlDemo() throws ClassNotFoundException, SQLException
+    {
+        // 加载驱动
+        Class.forName(this.driver);
+        // 获得数据库连接
+        this.conn = DriverManager.getConnection(this.URL, this.USER, this.PASSWORD);
+        // 实例化createStatement对象和ResulSet对象,开始操作数据库
+        this.stmt = conn.createStatement();
+        this.rs = null;
+
+        this.start();
+    }
+
+    public void start() throws SQLException
+    {
+        // 创建表，字段为name和age
+        String sql = "create table people(name char(50),age int)";
+        // 判断某表是否存在
+        String exists = "SELECT COUNT(*) as number FROM information_schema.TABLES WHERE TABLE_NAME='people'";
+        // 返回查询结果
+        ResultSet e = this.stmt.executeQuery(exists);
+        // 定义flag标志，默认未创建
+        int flag = 0;
+        // 判断下一个是否有数据
+        if(e.next())
+            flag = e.getInt("number");
+        if(flag == 0)
+            stmt.execute(sql);
+    }
+
+    public void insert(String name,int age) throws SQLException
+    {
+        /*
+         第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：
+
+        INSERT INTO table_name
+        VALUES (value1,value2,value3,...);
+        第二种形式需要指定列名及被插入的值：
+
+        INSERT INTO table_name (column1,column2,column3,...)
+        VALUES (value1,value2,value3,...);
+         * */
+        String sql = "insert into people values('"+name+"',"+age+")";
+        System.out.println(sql);
+        this.stmt.execute(sql);
+        this.close();
+    }
+
+    public void del(String name) throws SQLException
+    {
+        /*
+         DELETE FROM table_name
+         WHERE some_column=some_value;
+         * */
+        String sql = "delete from people where name='"+name+"'";
+        this.stmt.execute(sql);
+        this.close();
+    }
+
+    public void find(String name) throws SQLException
+    {
+        String sql = "select * from people where name='"+name+"'";
+        this.rs = this.stmt.executeQuery(sql);
+        while(rs.next())
+            System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
+        this.close();
+    }
+
+    public void findall() throws SQLException
+    {
+        String sql = "select * from people;";
+        this.rs = this.stmt.executeQuery(sql);
+        while(rs.next())
+            System.out.println(rs.getString("name")+"的岁数是"+rs.getInt("age"));
+        this.close();
+    }
+
+    public void update(String name,int age) throws SQLException
+    {
+        /*
+           UPDATE table_name
+           SET column1=value1,column2=value2,...
+           WHERE some_column=some_value;
+        */
+        String sql = "update people set age= "+age+" where name='"+name+"'";
+        this.stmt.executeUpdate(sql);
+        this.close();
+    }
+
+    public void close() throws SQLException
+    {    
+        if(rs != null)
+            this.rs.close();
+        if(stmt != null)
+            this.stmt.close();
+        if(conn != null)
+        this.conn.close();
+
+    }
 }
-
 ```
 
 * 测试
@@ -291,39 +289,38 @@ import java.sql.*;
 
 public class test {
 
-	public static void main(String[] args) {
-		String name = "angle";
-		int age = 18;
-		
-		int uage = 100;
-		try {
-			sqlDemo sd = new sqlDemo();
-//			//插入
-//			sd.insert(name, age);
-			
-//			//删除
-//			sd.del(name);
-			
-//			//更新
-//			sd.update(name, uage);
-			
-//			//单个查询
-//			sd.find(name);
-			
-//			//查询全部
-//			sd.findall();
-			
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+    public static void main(String[] args) {
+        String name = "angle";
+        int age = 18;
+
+        int uage = 100;
+        try {
+            sqlDemo sd = new sqlDemo();
+//            //插入
+//            sd.insert(name, age);
+
+//            //删除
+//            sd.del(name);
+
+//            //更新
+//            sd.update(name, uage);
+
+//            //单个查询
+//            sd.find(name);
+
+//            //查询全部
+//            sd.findall();
+
+        } catch (ClassNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
 
 }
-
 ```
 
 
