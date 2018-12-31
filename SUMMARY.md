@@ -6,7 +6,7 @@
 * [如何使用JDBC](java/ru-he-shi-yong-jdbc.md)
 * [定义一个类](java/ding-yi-yi-ge-lei.md)
 * [规范](java/gui-fan.md)
-
+* [java web架构](java/java-webjia-gou.md)
 
 ## 数据库
 
@@ -39,8 +39,6 @@
   * [SqlDataSource控件的常用属性](sqldatasourcekong-jian-de-chang-yong-shu-xing.md)
   * [GridView控件](gridviewkong-jian.md)
 * [sq command](sq-command.md)
-
-
 
 ## MATLAB
 
