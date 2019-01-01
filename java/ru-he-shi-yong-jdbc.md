@@ -352,44 +352,47 @@ import com.train.test.*;
 //create table users(id int not null auto_increment primary key,username varchar(255),password varchar(255));
 
 public class jdbcDemo {
-	
-	@Test
-	public void addUser()
-	{
-		//注册驱动
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}
-		
-		// 获取数据库地址
-		String url = "jdbc:mysql://localhost:3306/student?characterEncoding=utf-8";
-		String username = "root";
-		String password = "123456";
-		try {
-			Connection conn = DriverManager.getConnection(url, username, password);
-			
-			//创建StateMent对象
-			//preparedstatement:预编译对象
-			String sql = "insert into users(username,password) values(?,?)";
-			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
-			//设置参数
-			ps.setString(1, "angle");
-			ps.setString(2, "angle");
-			//执行、更新
-			int flag = ps.executeUpdate();
-			System.out.println(flag);
-			
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-	
-}
 
+    @Test
+    public void addUser()
+    {
+        //注册驱动
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        // 获取数据库地址
+        String url = "jdbc:mysql://localhost:3306/student?characterEncoding=utf-8";
+        String username = "root";
+        String password = "123456";
+        try {
+            Connection conn = DriverManager.getConnection(url, username, password);
+
+            //创建StateMent对象
+            //preparedstatement:预编译对象
+            String sql = "insert into users(username,password) values(?,?)";
+            PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+            //设置参数
+            ps.setString(1, "angle");
+            ps.setString(2, "angle");
+            //执行、更新
+            int flag = ps.executeUpdate();
+            System.out.println(flag);
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+}
 ```
+
+* 预编译的作用
+  * 可以优先sql
+  * 更加方便
 
 
 
