@@ -8,8 +8,6 @@ JDBC:java database connectivity SUN公司提供的一套操作数据库的标准
 
 JDBC与数据库驱动的关系:接口与实现的关系
 
-
-
 JDBC规范\(掌握四个核心对象\)
 
 * DriverManager:用于注册驱动
@@ -336,6 +334,61 @@ public class test {
     }
 
 }
+```
+
+* 预编译对象使用（PreparedStatement对象）
+
+```
+package com.train.jdbc;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import org.junit.Test;
+
+import com.mysql.jdbc.PreparedStatement;
+import com.train.test.*;
+
+//create table users(id int not null auto_increment primary key,username varchar(255),password varchar(255));
+
+public class jdbcDemo {
+	
+	@Test
+	public void addUser()
+	{
+		//注册驱动
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		// 获取数据库地址
+		String url = "jdbc:mysql://localhost:3306/student?characterEncoding=utf-8";
+		String username = "root";
+		String password = "123456";
+		try {
+			Connection conn = DriverManager.getConnection(url, username, password);
+			
+			//创建StateMent对象
+			//preparedstatement:预编译对象
+			String sql = "insert into users(username,password) values(?,?)";
+			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+			//设置参数
+			ps.setString(1, "angle");
+			ps.setString(2, "angle");
+			//执行、更新
+			int flag = ps.executeUpdate();
+			System.out.println(flag);
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+}
+
 ```
 
 
