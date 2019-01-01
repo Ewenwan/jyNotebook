@@ -342,52 +342,148 @@ public class test {
 package com.train.jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.junit.Test;
 
 import com.mysql.jdbc.PreparedStatement;
 import com.train.test.*;
 
+//create database student charset=utf8;
+//use student;
 //create table users(id int not null auto_increment primary key,username varchar(255),password varchar(255));
-
-public class jdbcDemo {
-
-    @Test
-    public void addUser()
-    {
-        //注册驱动
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        // 获取数据库地址
-        String url = "jdbc:mysql://localhost:3306/student?characterEncoding=utf-8";
-        String username = "root";
-        String password = "123456";
-        try {
-            Connection conn = DriverManager.getConnection(url, username, password);
-
-            //创建StateMent对象
-            //preparedstatement:预编译对象
-            String sql = "insert into users(username,password) values(?,?)";
-            PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
-            //设置参数
-            ps.setString(1, "angle");
-            ps.setString(2, "angle");
-            //执行、更新
-            int flag = ps.executeUpdate();
-            System.out.println(flag);
-
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
+//desc student;
+public class JdbcDemo {
+	// 获取数据库地址
+	static String url = "jdbc:mysql://localhost:3306/student?characterEncoding=utf-8";
+	static String username = "root";
+	static String password = "123456";
+	
+	public  static void main(String[] args) {
+//		User user = new User(2, "a","b");
+		List<User> items =  findUser(new User(2,null,null));
+		for(User item:items)
+			System.out.println(item);
+//		findallUser();
+	}
+	
+	
+	public static void start()
+	{
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void addUser(User user)
+	{
+		start();
+		try {
+			Connection conn = DriverManager.getConnection(url, username, password);
+			
+			//创建StateMent对象
+			//preparedstatement:预编译对象
+			String sql = "insert into users(username,password) values(?,?)";
+			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+			//设置参数
+			ps.setString(1, user.getUsername());
+			ps.setString(2, user.getPassword());
+			//执行、更新
+			int flag = ps.executeUpdate();
+			System.out.println(flag);
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void updateUser(User user)
+	{
+		start();
+		try {
+			Connection conn = DriverManager.getConnection(url, username, password);
+			String sql = "update users set username=?,password=? where id=?";
+			
+			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+			ps.setString(1, user.getUsername());
+			ps.setString(2, user.getPassword());
+			ps.setInt(3, user.getId());
+			
+			int flag = ps.executeUpdate();
+			System.out.println(flag);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	
+	public static void delUser(User user)
+	{
+		start();
+		try {
+			Connection conn = DriverManager.getConnection(url, username, password);
+			String sql = "delete from users where id=?";
+			
+			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+			ps.setInt(1, user.getId());
+			
+			int flag = ps.executeUpdate();
+			System.out.println(flag);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static List<User> findUser(User user)
+	{
+		List<User> luser = new ArrayList<User>();
+		start();
+		try {
+			Connection conn = DriverManager.getConnection(url, username, password);
+			String sql = "select * from users where id=?";
+			
+			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+			ps.setInt(1, user.getId());
+			ResultSet rs = ps.executeQuery();
+			
+			while(rs.next())
+			{
+				Integer id = rs.getInt("id");
+				String username = rs.getString("username");
+				String password = rs.getString("password");
+				luser.add(new User(id,username,password));
+				System.out.println("用户名:"+rs.getString("username")+","+rs.getString("password"));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return luser;
+	}
+	
+	public static void findallUser()
+	{
+		start();
+		try {
+			Connection conn = DriverManager.getConnection(url, username, password);
+			String sql = "select * from users";
+			PreparedStatement ps = (PreparedStatement) conn.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			
+			while(rs.next())
+				System.out.println("用户名:"+rs.getString("username")+","+rs.getString("password"));
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
 }
+
 ```
 
 * 预编译的作用
