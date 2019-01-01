@@ -2,6 +2,21 @@
 
 java数据库连接，是java语言中用来规范客户端程序如何来访问数据库的应用程序接口，提供了操作数据库的方法
 
+### 为什么要使用JDBC?
+
+JDBC:java database connectivity SUN公司提供的一套操作数据库的标准规范
+
+JDBC与数据库驱动的关系:接口与实现的关系
+
+
+
+JDBC规范\(掌握四个核心对象\)
+
+* DriverManager:用于注册驱动
+* Connection:表示数据库创建的连接
+* Statement:操作数据库sql语句的对象
+* ResultSet:结果集或一张虚拟表
+
 ### 执行流程
 
 * 连接数据库
