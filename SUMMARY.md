@@ -7,7 +7,6 @@
 * [定义一个类](java/ding-yi-yi-ge-lei.md)
 * [规范](java/gui-fan.md)
 * [java web架构](java/java-webjia-gou.md)
-
 * java
 
 	* 1. java语言开发环境
@@ -274,9 +273,6 @@
 		  * 18.3.1 InetAddress程序设计
 		  * 18.3.2 基于链接的Socket通信程序设计
 		  * 18.3.3 无连接的数据报通信程序设计
-
-
-
 * Java Web Note
 	* [JSP概述](da-jian-java-web-kai-fa-huan-jing/jspgai-shu.md)
 	* [Tomcat的安装和配置](da-jian-java-web-kai-fa-huan-jing/tomcatde-an-zhuang-he-pei-zhi.md)
