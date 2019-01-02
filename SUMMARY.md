@@ -800,7 +800,8 @@
     * 乐视
     * 暴风音影
     * [腾讯](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/teng-xun.md)
-  * 图片
+  * [图片](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/tu-pian.md)
+    * [百度图片](wei-xin-gong-zong-hao-wen-zhang-shi-zhan/tu-pian/bai-du-tu-pian.md)
 
 ## web开发
 
