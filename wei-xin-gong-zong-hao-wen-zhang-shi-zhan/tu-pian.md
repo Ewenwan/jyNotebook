@@ -2,7 +2,7 @@
 
 * #### 网页
 
-分析地址:[http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=&ic=0&lm=-1&width=0&height=0&word=天使](http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=&ic=0&lm=-1&width=0&height=0&word=天使)
+分析地址:[http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=⁣=0&lm=-1&width=0&height=0&word=天使](http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=&ic=0&lm=-1&width=0&height=0&word=天使)
 
 可以知道word是搜索的关键字，然后上下页不停点击翻页，可以发现pn参数在改变，而且是整数倍改变，再根据当前的图片数量可知，pn是改变页数的参数，即pn/20+1页即为当前的页数
 
@@ -62,9 +62,7 @@ def save_to_image(self,word,image,pn):
             f.flush()
 ```
 
-* 完整源码
-
-
+* [完整源码](https://github.com/CoderAngle/image.git)
 
 
 
