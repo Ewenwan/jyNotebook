@@ -2,11 +2,9 @@
 
 * #### 网页
 
-分析地址:http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=&ic=0&lm=-1&width=0&height=0&word=%E5%A4%A9%E4%BD%BF
+分析地址:[http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=&ic=0&lm=-1&width=0&height=0&word=天使](http://image.baidu.com/search/flip?tn=baiduimage&ie=utf-8&pn=0&gsm=78&ct=&ic=0&lm=-1&width=0&height=0&word=天使)
 
 可以知道word是搜索的关键字，然后上下页不停点击翻页，可以发现pn参数在改变，而且是整数倍改变，再根据当前的图片数量可知，pn是改变页数的参数，即pn/20+1页即为当前的页数
-
-
 
 ![](/assets/spider-15.17.4-1.png)
 
@@ -50,6 +48,23 @@ imgs = re.findall(img_url,r.text,re.S)
 ```
 self.parse(word=word,pn=pn+20)
 ```
+
+* 存储数据
+
+```
+def save_to_image(self,word,image,pn):
+    if not os.path.exists("image/"+word+"/"+pn):
+        os.makedirs("image/"+word+"/"+pn)
+    if not os.path.exists("image/"+word+"/"+pn+"/"+''.join(str(image).split('/')[4:])):
+        with open("image/"+word+"/"+pn+"/"+''.join(str(image).split('/')[4:]),"wb") as f:
+            r = requests.get(image)
+            f.write(r.content)
+            f.flush()
+```
+
+* 完整源码
+
+
 
 
 
