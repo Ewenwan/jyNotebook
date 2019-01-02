@@ -8,9 +8,9 @@
 * [规范](java/gui-fan.md)
 * [java web架构](java/java-webjia-gou.md)
 * java
- * 1. java语言开发环境
+  * 1. java语言开发环境
 	* [1.1 java开发工具](1.-java/1.1-java.md)
- * 2. java语言基础
+  * 2. java语言基础
 	* [2.1 数据类型](2.-java/21-shu-ju-lei-xing.md)
 	* [2.2 关键字与标识符](2.-java/2.2.md)
 	* [2.3 常量](2.-java/23-chang-liang.md)
@@ -26,8 +26,7 @@
 	  * 2.7.6 条件运算符
 	  * 2.7.7 字符串运算
 	  * 2.7.8 表达式及运算符的优先级、结合性
-
- * 3. 流程控制
+  * 3. 流程控制
 	* [3.1 语句与复合语句](3-liu-cheng-kong-zhi/31-yu-ju-yu-fu-he-yu-ju.md)
 	* [3.2 顺序结构](3-liu-cheng-kong-zhi/32-shun-xu-jie-gou.md)
 	* [3.3 分支结构](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou.md)
@@ -39,7 +38,7 @@
 	  * [3.4.3 for循环语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/343-forxun-huan-yu-ju.md)
 	  * [3.4.4 多重循环](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/344-duo-zhong-xun-huan.md)
 	* [3.5 跳转语句](3-liu-cheng-kong-zhi/35-tiao-zhuan-yu-ju.md)
- * 4. 数组与字符串
+  * 4. 数组与字符串
 	* [4.1 数组的基本概念](4-shu-zu-yu-zi-fu-chuan/41-shu-zu-de-ji-ben-gai-nian.md)
 	* [4.2 一维数组](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu.md)
 	  * [4.2.1 一维数组的定义](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/421-yi-wei-shu-zu-de-ding.md)
@@ -52,7 +51,7 @@
 	* [4.5 字符串](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan.md)
 	  * [4.5.1 字符串的变量的创建](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan/451-zi-fu-chuan-de-bian-liang-de-chuang-jian.md)
 	  * [4.5.2 String类的常用方法](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan/452-stringlei-de-chang-yong-fang-fa.md)
- * 5. 类和对象
+  * 5. 类和对象
 	* [5.1 类的基本概念](5-lei-he-dui-xiang/51-lei-de-ji-ben-gai-nian.md)
 	* [5.2 定义类](5-lei-he-dui-xiang/52-ding-yi-lei.md)
 	* [5.3 对象的创建于使用](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong.md)
@@ -64,7 +63,7 @@
 	  * [5.5.2 以数组作为参数或返回值的方法调用](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/552-yi-shu-zu-zuo-wei-can-shu-huo-fan-hui-zhi-de-fang-fa-diao-yong.md)
 	  * [5.5 匿名对象](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/55-ni-ming-dui-xiang.md)
 	* [5.5匿名对象](5-lei-he-dui-xiang/55ni-ming-dui-xiang.md)
- * 6. Java语言类的特性
+  * 6. Java语言类的特性
 	* [6.1 类的私有成员与共有成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan.md)
 	  * [6.1.1 私有成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/611-si-you-cheng-yuan.md)
 	  * [6.1.2 公共成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/612-gong-gong-cheng-yuan.md)
@@ -86,7 +85,7 @@
 	  * [6.5.2 引用变量作为方法的返回值](6.-java/6.5/652-yin-yong-bian-liang-zuo-wei-fang-fa-de-fan-hui-zhi.md)
 	  * [6.5.3 类类型的数组](6.-java/6.5/653-lei-lei-xing-de-shu-zu.md)
 	  * [6.5.4 以对象数组为参数进行方法调用](6.-java/6.5/654-yi-dui-xiang-shu-zu-wei-can-shu-jin-xing-fang-fa-diao-yong.md)
- * 7. 继承、抽象类和接口
+  * 7. 继承、抽象类和接口
 	* [7.1 类的继承](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng.md)
 	  * [7.1.1 子类的创建](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/711-zi-lei-de-chuang-jian.md)
 	  * [7.1.2 在子类中访问父类的成员](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/712-zai-zi-lei-zhong-fang-wen-fu-lei-de-cheng-yuan.md)
@@ -112,7 +111,7 @@
 	  * 7.5.5 利用import语句引用java定义的包
 	  * 7.5.6 java程序结构
 	* 7.6 java语言的垃圾回收
- * 8. 异常处理
+  * 8. 异常处理
 	* 8.1 异常处理的基本概念
 	  * 8.1.1 错误与异常
 	  * 8.1.2 java语言的异常处理机制
@@ -120,7 +119,7 @@
 	* 8.3 异常的处理
 	* 8.4 抛出异常
 	* 8.5 自定义异常类
- * 9.java语言的输入输出与文件处理
+  * 9.java语言的输入输出与文件处理
 	* 9.1 java语言的输入输出类库
 	  * 9.1.1 流的概念
 	  * 9.1.2 输入输出流类库
@@ -135,7 +134,7 @@
 	* 9.4 文件的处理与随机访问
 	  * 9.4.1 java语言对文件与文件夹的管理
 	  * 9.4.2 对文件的随机访问
- * 10. 多线程
+  * 10. 多线程
 	* 10.1 线程的概念
 	  * 10.1.1 程序、进程、多任务与线程
 	  * 10.1.2 线程的状态与生命周期
@@ -147,7 +146,7 @@
 	* 10.3 多线程的同步控制
 	* 10.4 线程之间的通信
 
- * 11. 泛型与容器类
+  * 11. 泛型与容器类
 	* 11.1 泛型
 	  * 11.1.1 泛型的概念
 	  * 11.1.2 泛型类及应用
@@ -161,7 +160,7 @@
 	  * 11.2.3 列表接口List
 	  * 11.2.4 集合接口Set
 	  * 11.2.5 映射接口Map
- * 12.图形界面设计
+  * 12.图形界面设计
 	* 12.1 图形用户界面概述
 	* 12.2 图形用户界面工具包--Swing
 	  * 12.2.1 Swing组件分类
@@ -179,7 +178,7 @@
 	  * 12.4.5 网格包布局管理器GridBagLayout
 	  * 12.4.6 盒式布局管理器BoxLayout
 	  * 12.4.7 重叠布局管理器OverlayLayout和弹簧布局管理器SpringLayout简介
- * 13.事件处理
+  * 13.事件处理
 	* 13.1 java语言的事件处理机制--委托事件模型
 	* 13.2 java语言的事件类
 	* 13.3 适配器类
@@ -200,10 +199,10 @@
 	* 13.16 文件选择对话框
 	* 13.17 颜色选择窗格
 	* 13.18 定时器
- * 14. 绘图程序设计
+  * 14. 绘图程序设计
 	* 14.1 图形坐标系与绘图类
 	* 14.2 绘图程序设计
- * 15.小程序设计
+  * 15.小程序设计
 	* 15.1 小程序的基本工作原理
 	* 15.2 JApplet类
 	* 15.3 Java小程序编程实例
@@ -211,7 +210,7 @@
 	* 15.5 图像文件处理
 	* 15.6 播放音乐
 	* 15.7 动画程序设计
- * 16. java数据库程序设计
+  * 16. java数据库程序设计
 	* 16.1 关系数据库系统
 	  * 16.1.1 数据库与数据库表
 	  * 16.1.2 完整性约束
@@ -228,7 +227,7 @@
 	  * 16.3.5 获取元数据
 	  * 16.3.6 事物操作
 	  * 16.3.7 通过Java JApplet访问数据库
- * 18.java网络编程
+  * 18.java网络编程
 	* 18.1 网络基础
 	  * 18.1.1 TCP/IP协议
 	  * 18.1.2 通信端口
