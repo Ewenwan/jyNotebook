@@ -8,6 +8,275 @@
 * [规范](java/gui-fan.md)
 * [java web架构](java/java-webjia-gou.md)
 
+* java
+
+	* 1. java语言开发环境
+
+		* [1.1 java开发工具](1.-java/1.1-java.md)
+
+	* 2. java语言基础
+
+		* [2.1 数据类型](2.-java/21-shu-ju-lei-xing.md)
+		* [2.2 关键字与标识符](2.-java/2.2.md)
+		* [2.3 常量](2.-java/23-chang-liang.md)
+		* [2.4 变量](2.-java/24-bian-liang.md)
+		* [2.5 数据类型转换](2.-java/25-shu-ju-lei-xing-zhuan-huan.md)
+		* [2.6 输入数据](2.-java/26-shu-ru-shu-ju.md)
+		* [2.7 运算符与表达式](2.-java/27-yun-suan-fu-yu-biao-da-shi.md)
+		  * 2.7.1 算术运算符
+		  * 2.7.2. 关系运算符
+		  * 2.7.3 逻辑运算符
+		  * 2.7.4 位运算符
+		  * 2.7.5 赋值运算符
+		  * 2.7.6 条件运算符
+		  * 2.7.7 字符串运算
+		  * 2.7.8 表达式及运算符的优先级、结合性
+
+	* 3. 流程控制
+
+		* [3.1 语句与复合语句](3-liu-cheng-kong-zhi/31-yu-ju-yu-fu-he-yu-ju.md)
+		* [3.2 顺序结构](3-liu-cheng-kong-zhi/32-shun-xu-jie-gou.md)
+		* [3.3 分支结构](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou.md)
+		  * [3.3.1 if条件语句](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou/331-iftiao-jian-yu-ju.md)
+		  * [3.3.2 switch选择语句](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou/332-switchxuan-ze-yu-ju.md)
+		* [3.4 循环结构](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou.md)
+		  * [3.4.1 while语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/341-whileyu-ju.md)
+		  * [3.4.2 do-while语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/342-do-whileyu-ju.md)
+		  * [3.4.3 for循环语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/343-forxun-huan-yu-ju.md)
+		  * [3.4.4 多重循环](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/344-duo-zhong-xun-huan.md)
+		* [3.5 跳转语句](3-liu-cheng-kong-zhi/35-tiao-zhuan-yu-ju.md)
+
+	* 4. 数组与字符串
+
+		* [4.1 数组的基本概念](4-shu-zu-yu-zi-fu-chuan/41-shu-zu-de-ji-ben-gai-nian.md)
+		* [4.2 一维数组](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu.md)
+		  * [4.2.1 一维数组的定义](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/421-yi-wei-shu-zu-de-ding.md)
+		  * [4.2.2 一维数组元素的访问](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/422-yi-wei-shu-zu-yuan-su-de-fang-wen.md)
+		  * [4.2.3 一维数组的初始化及应用](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/423-yi-wei-shu-zu-de-chu-shi-hua-ji-ying-yong.md)
+		* [4.3 foreach语句与数组](4-shu-zu-yu-zi-fu-chuan/43-foreachyu-ju-yu-shu-zu.md)
+		* [4.4 多维数组](4-shu-zu-yu-zi-fu-chuan/44-duo-wei-shu-zu.md)
+		  * [4.4.1 二维数组](4-shu-zu-yu-zi-fu-chuan/44-duo-wei-shu-zu/441-er-wei-shu-zu.md)
+		  * [4.4.2 三维以上的多维数组](4-shu-zu-yu-zi-fu-chuan/44-duo-wei-shu-zu/442-san-wei-yi-shang-de-duo-wei-shu-zu.md)
+		* [4.5 字符串](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan.md)
+		  * [4.5.1 字符串的变量的创建](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan/451-zi-fu-chuan-de-bian-liang-de-chuang-jian.md)
+		  * [4.5.2 String类的常用方法](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan/452-stringlei-de-chang-yong-fang-fa.md)
+
+	* 5. 类和对象
+
+		* [5.1 类的基本概念](5-lei-he-dui-xiang/51-lei-de-ji-ben-gai-nian.md)
+		* [5.2 定义类](5-lei-he-dui-xiang/52-ding-yi-lei.md)
+		* [5.3 对象的创建于使用](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong.md)
+		  * [5.3.1 创建对象](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong/531-chuang-jian-dui-xiang.md)
+		  * [5.3.2 对象的使用](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong/532-dui-xiang-de-shi-yong.md)
+		  * [5.3.3 在类定义内调用方法](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong/533-zai-lei-ding-yi-nei-diao-yong-fang-fa.md)
+		* [5.4 参数的传递](5-lei-he-dui-xiang/54-can-shu-de-chuan-di.md)
+		  * [5.4.1 以变量为参数调用方法](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/541-yi-bian-liang-wei-can-shu-diao-yong-fang-fa.md)
+		  * [5.5.2 以数组作为参数或返回值的方法调用](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/552-yi-shu-zu-zuo-wei-can-shu-huo-fan-hui-zhi-de-fang-fa-diao-yong.md)
+		  * [5.5 匿名对象](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/55-ni-ming-dui-xiang.md)
+		* [5.5匿名对象](5-lei-he-dui-xiang/55ni-ming-dui-xiang.md)
+
+	* 6. Java语言类的特性
+
+		* [6.1 类的私有成员与共有成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan.md)
+		  * [6.1.1 私有成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/611-si-you-cheng-yuan.md)
+		  * [6.1.2 公共成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/612-gong-gong-cheng-yuan.md)
+		  * [6.1.3 缺省访问控制符](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/613-que-sheng-fang-wen-kong-zhi-fu.md)
+		* [6.2 方法的重载](6.-java/62-fang-fa-de-zhong-zai.md)
+		* [6.3 构造方法](6.-java/63-gou-zao-fang-fa.md)
+		  * [6.3.1 构造方法的作用与定义](6.-java/63-gou-zao-fang-fa/631-gou-zao-fang-fa-de-zuo-yong-yu-ding-yi.md)
+		  * [6.3.2 默认的构造方法](6.-java/63-gou-zao-fang-fa/632-mo-ren-de-gou-zao-fang-fa.md)
+		  * [6.3.3 构造方法的重载](6.-java/63-gou-zao-fang-fa/633-gou-zao-fang-fa-de-zhong-zai.md)
+		  * [6.3.4 从一个构造方法调用另一个构造方法](6.-java/63-gou-zao-fang-fa/634-cong-yi-ge-gou-zao-fang-fa-diao-yong-ling-yi-ge-gou-zao-fang-fa.md)
+		  * [6.3.5 公共构造方法与私有构造方法](6.-java/63-gou-zao-fang-fa/635-gong-gong-gou-zao-fang-fa-yu-si-you-gou-zao-fang-fa.md)
+		* [6.4 静态成员](6.-java/64-jing-tai-cheng-yuan.md)
+		  * [6.4.1 实例成员](6.-java/64-jing-tai-cheng-yuan/641-shi-li-cheng-yuan.md)
+		  * [6.4.2 静态变量](6.-java/64-jing-tai-cheng-yuan/642-jing-tai-bian-liang.md)
+		  * [6.4.3 静态方法](6.-java/64-jing-tai-cheng-yuan/643-jing-tai-fang-fa.md)
+		  * [6.4.4 静态初始化器](6.-java/64-jing-tai-cheng-yuan/644-jing-tai-chu-shi-hua-qi.md)
+		* [6.5 对象的应用](6.-java/6.5.md)
+		  * [6.5.1 对象的赋值与比较](6.-java/6.5/651-dui-xiang-de-fu-zhi-yu-bi-jiao.md)
+		  * [6.5.2 引用变量作为方法的返回值](6.-java/6.5/652-yin-yong-bian-liang-zuo-wei-fang-fa-de-fan-hui-zhi.md)
+		  * [6.5.3 类类型的数组](6.-java/6.5/653-lei-lei-xing-de-shu-zu.md)
+		  * [6.5.4 以对象数组为参数进行方法调用](6.-java/6.5/654-yi-dui-xiang-shu-zu-wei-can-shu-jin-xing-fang-fa-diao-yong.md)
+
+	* 7. 继承、抽象类和接口
+
+		* [7.1 类的继承](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng.md)
+		  * [7.1.1 子类的创建](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/711-zi-lei-de-chuang-jian.md)
+		  * [7.1.2 在子类中访问父类的成员](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/712-zai-zi-lei-zhong-fang-wen-fu-lei-de-cheng-yuan.md)
+		  * [7.1.3 覆盖](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/713-fu-gai.md)
+		  * [7.1.4 不可被继承的成员与最终类](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/714-bu-ke-bei-ji-cheng-de-cheng-yuan-yu-zui-zhong-lei.md)
+		  * [7.1.5 Object类](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/71-lei-de-ji-cheng/715-objectlei.md)
+		* [7.2抽象类](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/72chou-xiang-lei.md)
+		  * [7.2.1 抽象类与抽象方法](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/72chou-xiang-lei/721-chou-xiang-lei-yu-chou-xiang-fang-fa.md)
+		  * [7.2.2 抽象类的应用](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/72chou-xiang-lei/722-chou-xiang-lei-de-ying-yong.md)
+		* [7.3 接口](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/73-jie-kou.md)
+		  * [7.3.1 接口的定义](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/73-jie-kou/731-jie-kou-de-ding-yi.md)
+		  * 7.3.2 接口的实现与引用
+		  * 7.3.3 接口的继承
+		  * 7.3.4 利用接口实现类的多重继承
+		* [7.4 内部类与匿名内部类](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/74-nei-bu-lei-yu-ni-ming-nei-bu-lei.md)
+		  * [7.4.1 内部类](7-ji-cheng-3001-chou-xiang-lei-he-jie-kou/74-nei-bu-lei-yu-ni-ming-nei-bu-lei/741-nei-bu-lei.md)
+		  * 7.4.2 匿名内部类
+		* 7.5 包
+		  * 7.5.1 包的概念
+		  * 7.5.2 使用package语句创建语句
+		  * 7.5.3 java语言中的常用包
+		  * 7.5.4 java语言中几个常用的类
+		  * 7.5.5 利用import语句引用java定义的包
+		  * 7.5.6 java程序结构
+		* 7.6 java语言的垃圾回收
+
+	* 8. 异常处理
+
+		* 8.1 异常处理的基本概念
+		  * 8.1.1 错误与异常
+		  * 8.1.2 java语言的异常处理机制
+		* 8.2 异常处理类
+		* 8.3 异常的处理
+		* 8.4 抛出异常
+		* 8.5 自定义异常类
+
+	* 9.java语言的输入输出与文件处理
+
+		* 9.1 java语言的输入输出类库
+		  * 9.1.1 流的概念
+		  * 9.1.2 输入输出流类库
+		* 9.2 使用InputStream和OutputStream流类
+		  * 9.2.1 基本的输入输出流
+		  * 9.2.2 输入输出流的应用
+		* 9.3 使用reader和writer流类
+		  * 使用FileReader类读取文件
+		  * 使用FileWriter类写入文件
+		  * 使用BufferedReader类读取文件
+		  * 使用BufferedWriter类写入文件
+		* 9.4 文件的处理与随机访问
+		  * 9.4.1 java语言对文件与文件夹的管理
+		  * 9.4.2 对文件的随机访问
+
+	* 10. 多线程
+
+		* 10.1 线程的概念
+		  * 10.1.1 程序、进程、多任务与线程
+		  * 10.1.2 线程的状态与生命周期
+		  * 10.1.3 线程的调度与优先级
+		* 10.2 java的Thread线程类与Runnable接口
+		  * 10.2.1 利用Thread类的子类来创建线程
+		  * 10.2.2 用Runnable接口来创建线
+		  * 10.2.3 线程间的数据共享
+		* 10.3 多线程的同步控制
+		* 10.4 线程之间的通信
+
+	* 11. 泛型与容器类
+
+		* 11.1 泛型
+		  * 11.1.1 泛型的概念
+		  * 11.1.2 泛型类及应用
+		  * 11.1.3 泛型方法
+		  * 11.1.4 限制泛型的可用类型
+		  * 11.1.5 泛型的类型通配符和泛型数组的应用
+		  * 11.1.6 继承泛型类与实现泛型接口
+		* 11.2 容器类
+		  * 11.2.1 java容器框架
+		  * 11.2.2 Collection接口
+		  * 11.2.3 列表接口List
+		  * 11.2.4 集合接口Set
+		  * 11.2.5 映射接口Map
+
+	* 12.图形界面设计
+
+		* 12.1 图形用户界面概述
+		* 12.2 图形用户界面工具包--Swing
+		  * 12.2.1 Swing组件分类
+		  * 12.2 颜色类Color、字体类Font与图表类ImageIcon
+		* 12.3 创建组件
+		  * 12.3.1 标签JLabel
+		  * 12.3.2 命令按钮JButton、复选框JCheckBox和单选按钮JRadioButton
+		  * 12.3.3 文本编辑组件JTextField、JPasswordField、JTextArea与滚动窗格JScrollPane
+		  * 12.3.4 选项卡窗格JTabbedPane
+		* 12.4 布局管理器
+		  * 12.4.1 流式布局管理器FlowLayout
+		  * 12.4.2 边界式布局管理器BorderLayout
+		  * 12.4.3 网格式布局管理器GridLayout
+		  * 12.4.4 卡片式布局管理器CardLayout
+		  * 12.4.5 网格包布局管理器GridBagLayout
+		  * 12.4.6 盒式布局管理器BoxLayout
+		  * 12.4.7 重叠布局管理器OverlayLayout和弹簧布局管理器SpringLayout简介
+
+	* 13.事件处理
+
+		* 13.1 java语言的事件处理机制--委托事件模型
+		* 13.2 java语言的事件类
+		* 13.3 适配器类
+		* 13.4 命令按钮及相应的事件处理
+		* 13.5 复选框、单选按钮及相应的事件处理
+		* 13.6 文本组件及相应的事件处理
+		* 13.7 窗口组件及窗口事件处理
+		* 13.8 对话框设计及相应的事件处理
+		* 13.9 按键事件类及相应的事件处理
+		* 13.10 鼠标事件类及相应的事件处理
+		* 13.11 列表框及相应的时间处理
+		* 13.12 组合框及相应的事件处理
+		* 13.13 菜单设计
+		  * 13.13.1 窗口菜单
+		  * 13.13.2 弹出式菜单
+		* 13.14 工具栏设计
+		* 13.15 滑动条设计及相应的事件处理
+		* 13.16 文件选择对话框
+		* 13.17 颜色选择窗格
+		* 13.18 定时器
+
+	* 14. 绘图程序设计
+
+		* 14.1 图形坐标系与绘图类
+		* 14.2 绘图程序设计
+
+	* 15.小程序设计
+
+		* 15.1 小程序的基本工作原理
+		* 15.2 JApplet类
+		* 15.3 Java小程序编程实例
+		* 15.4 将应用程序转换成小程序及小程序的安全性
+		* 15.5 图像文件处理
+		* 15.6 播放音乐
+		* 15.7 动画程序设计
+
+	* 16. java数据库程序设计
+
+		* 16.1 关系数据库系统
+		  * 16.1.1 数据库与数据库表
+		  * 16.1.2 完整性约束
+		* 16.2 sql
+		  * 16.2.1 创建数据库
+		  * 16.2.2 表操作
+		  * 16.2.3 表数据操作
+		  * 16.2.4 数据查询
+		* 16.3 JDBC
+		  * 16.3.1 JDBC概述
+		  * 16.3.2 JDBC类型
+		  * 16.3.3 使用JDBC开发数据库应用程序
+		  * 16.3.4 数据库的进一步操作
+		  * 16.3.5 获取元数据
+		  * 16.3.6 事物操作
+		  * 16.3.7 通过Java JApplet访问数据库
+
+	* 18.java网络编程
+
+		* 18.1 网络基础
+		  * 18.1.1 TCP/IP协议
+		  * 18.1.2 通信端口
+		  * 18.1.3 URL概念
+		  * 18.1.4 Java语言的网络编程
+		* 18.2 URL编程
+		  * 18.2.1 创建URL对象
+		  * 18.2.2 使用URL类访问网络资源
+		* 18.3 用java语言实现底层网络通信
+		  * 18.3.1 InetAddress程序设计
+		  * 18.3.2 基于链接的Socket通信程序设计
+		  * 18.3.3 无连接的数据报通信程序设计
+
+
+
 * Java Web Note
 	* [JSP概述](da-jian-java-web-kai-fa-huan-jing/jspgai-shu.md)
 	* [Tomcat的安装和配置](da-jian-java-web-kai-fa-huan-jing/tomcatde-an-zhuang-he-pei-zhi.md)
