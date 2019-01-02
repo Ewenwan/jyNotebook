@@ -176,6 +176,7 @@
         * [Servlet请求监听](jsp-note/servletjian-shi-qi/servletqing-qiu-jian-ting.md)
 * [eclipse 细节配置](java/eclipse-xi-jie-pei-zhi.md)
 * [json 了解](java/json-le-jie.md)
+* [jquery easyui](java/jquery-easyui.md)
 
 ## 数据库
 
