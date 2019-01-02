@@ -174,6 +174,7 @@
         * [Servlet上下文监听](jsp-note/servletjian-shi-qi/servletshang-xia-wen-jian-ting.md)
         * [Http会话监听](jsp-note/servletjian-shi-qi/httphui-hua-jian-ting.md)
         * [Servlet请求监听](jsp-note/servletjian-shi-qi/servletqing-qiu-jian-ting.md)
+* [eclipse 细节配置](java/eclipse-xi-jie-pei-zhi.md)
 
 ## 数据库
 
