@@ -179,7 +179,7 @@
 * [jquery easyui](java/jquery-easyui.md)
   * [添加数据](java/jquery-easyui/tian-jia-shu-ju.md)
 * [ajax异步传送](java/ajaxyi-bu-chuan-song.md)
-* mybatis-generator使用
+* [mybatis-generator使用](java/mybatis-generatorshi-yong.md)
 
 ## 数据库
 
