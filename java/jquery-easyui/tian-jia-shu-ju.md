@@ -25,6 +25,7 @@
 * js
 
 ```
+$(function() {
 	$('#dg').datagrid({
 		toolbar:[{
 			iconCls:'icon-add',
@@ -58,12 +59,22 @@
 //							return row.user.name
 //						else
 //							return value
-						return "<a style='text-decoration:none;' href='#' onclick='edit()'>修改</a> | <a style='text-decoration:none;' href='#' onclick='del()'>删除</a>"
+						return "<a style='text-decoration:none;' href='#' onclick='edit("+row.id+")'>修改</a> | <a style='text-decoration:none;' href='#' onclick='del("+row.id+")'>删除</a>"
 					}
 				}
 			]
 		]
 	});
+})
+
+function edit(id){
+	alert(id)
+}
+
+function del(id){
+	alert(id)
+}
+
 ```
 
 
