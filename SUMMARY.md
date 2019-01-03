@@ -177,6 +177,8 @@
 * [eclipse 细节配置](java/eclipse-xi-jie-pei-zhi.md)
 * [json 了解](java/json-le-jie.md)
 * [jquery easyui](java/jquery-easyui.md)
+  * [添加数据](java/jquery-easyui/tian-jia-shu-ju.md)
+* [ajax异步传送](java/ajaxyi-bu-chuan-song.md)
 
 ## 数据库
 
