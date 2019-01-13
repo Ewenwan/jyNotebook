@@ -2,6 +2,24 @@
 
 ## Java
 
+* [基础](java/ji-chu.md)
+  * java语言开发环境
+  * [java语言基础](java/javayu-yan-ji-chu.md)
+  * [流程控制](java/liu-cheng-kong-zhi.md)
+  * 数组与字符串
+  * 类和对象
+  * Java语言类的特性
+  * 继承、抽象类和接口
+  * 异常处理
+  * java语言的输入输出与文件处理
+  * 多线程
+  * 泛型与容器类
+  * 图形界面设计
+  * 事件处理
+  * 绘图程序设计
+  * 小程序设计
+  * java数据库程序设计
+  * java网络编程
 * [java 自定义排序](java/java-zi-ding-yi-pai-xu.md)
 * [如何使用JDBC](java/ru-he-shi-yong-jdbc.md)
 * [定义一个类](java/ding-yi-yi-ge-lei.md)
@@ -103,8 +121,6 @@
 * [jquery easyui](java/jquery-easyui.md)
   * [添加数据](java/jquery-easyui/tian-jia-shu-ju.md)
 * [ajax异步传送](java/ajaxyi-bu-chuan-song.md)
-* [mybatis-generator使用](java/mybatis-generatorshi-yong.md)
-* 基础
 
 ## 数据库
 
