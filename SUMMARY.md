@@ -34,7 +34,30 @@
 	  * [3.4.4 多重循环](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/344-duo-zhong-xun-huan.md)
 	* [3.5 跳转语句](3-liu-cheng-kong-zhi/35-tiao-zhuan-yu-ju.md)
   * 数组与字符串
+    * [4.1 数组的基本概念](4-shu-zu-yu-zi-fu-chuan/41-shu-zu-de-ji-ben-gai-nian.md)
+	* [4.2 一维数组](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu.md)
+	  * [4.2.1 一维数组的定义](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/421-yi-wei-shu-zu-de-ding.md)
+	  * [4.2.2 一维数组元素的访问](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/422-yi-wei-shu-zu-yuan-su-de-fang-wen.md)
+	  * [4.2.3 一维数组的初始化及应用](4-shu-zu-yu-zi-fu-chuan/42-yi-wei-shu-zu/423-yi-wei-shu-zu-de-chu-shi-hua-ji-ying-yong.md)
+	* [4.3 foreach语句与数组](4-shu-zu-yu-zi-fu-chuan/43-foreachyu-ju-yu-shu-zu.md)
+	* [4.4 多维数组](4-shu-zu-yu-zi-fu-chuan/44-duo-wei-shu-zu.md)
+	  * [4.4.1 二维数组](4-shu-zu-yu-zi-fu-chuan/44-duo-wei-shu-zu/441-er-wei-shu-zu.md)
+	  * [4.4.2 三维以上的多维数组](4-shu-zu-yu-zi-fu-chuan/44-duo-wei-shu-zu/442-san-wei-yi-shang-de-duo-wei-shu-zu.md)
+	* [4.5 字符串](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan.md)
+	  * [4.5.1 字符串的变量的创建](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan/451-zi-fu-chuan-de-bian-liang-de-chuang-jian.md)
+	  * [4.5.2 String类的常用方法](4-shu-zu-yu-zi-fu-chuan/45-zi-fu-chuan/452-stringlei-de-chang-yong-fang-fa.md)
   * 类和对象
+    * [5.1 类的基本概念](5-lei-he-dui-xiang/51-lei-de-ji-ben-gai-nian.md)
+	* [5.2 定义类](5-lei-he-dui-xiang/52-ding-yi-lei.md)
+	* [5.3 对象的创建于使用](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong.md)
+	  * [5.3.1 创建对象](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong/531-chuang-jian-dui-xiang.md)
+	  * [5.3.2 对象的使用](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong/532-dui-xiang-de-shi-yong.md)
+	  * [5.3.3 在类定义内调用方法](5-lei-he-dui-xiang/53-dui-xiang-de-chuang-jian-yu-shi-yong/533-zai-lei-ding-yi-nei-diao-yong-fang-fa.md)
+	* [5.4 参数的传递](5-lei-he-dui-xiang/54-can-shu-de-chuan-di.md)
+	  * [5.4.1 以变量为参数调用方法](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/541-yi-bian-liang-wei-can-shu-diao-yong-fang-fa.md)
+	  * [5.5.2 以数组作为参数或返回值的方法调用](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/552-yi-shu-zu-zuo-wei-can-shu-huo-fan-hui-zhi-de-fang-fa-diao-yong.md)
+	  * [5.5 匿名对象](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/55-ni-ming-dui-xiang.md)
+	* [5.5匿名对象](5-lei-he-dui-xiang/55ni-ming-dui-xiang.md)
   * Java语言类的特性
   * 继承、抽象类和接口
   * 异常处理
