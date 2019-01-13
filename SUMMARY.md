@@ -104,6 +104,7 @@
   * [添加数据](java/jquery-easyui/tian-jia-shu-ju.md)
 * [ajax异步传送](java/ajaxyi-bu-chuan-song.md)
 * [mybatis-generator使用](java/mybatis-generatorshi-yong.md)
+* 基础
 
 ## 数据库
 
