@@ -59,6 +59,27 @@
 	  * [5.5 匿名对象](5-lei-he-dui-xiang/54-can-shu-de-chuan-di/55-ni-ming-dui-xiang.md)
 	* [5.5匿名对象](5-lei-he-dui-xiang/55ni-ming-dui-xiang.md)
   * Java语言类的特性
+    * [6.1 类的私有成员与共有成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan.md)
+	  * [6.1.1 私有成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/611-si-you-cheng-yuan.md)
+	  * [6.1.2 公共成员](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/612-gong-gong-cheng-yuan.md)
+	  * [6.1.3 缺省访问控制符](6.-java/61-lei-de-si-you-cheng-yuan-yu-gong-you-cheng-yuan/613-que-sheng-fang-wen-kong-zhi-fu.md)
+	* [6.2 方法的重载](6.-java/62-fang-fa-de-zhong-zai.md)
+	* [6.3 构造方法](6.-java/63-gou-zao-fang-fa.md)
+	  * [6.3.1 构造方法的作用与定义](6.-java/63-gou-zao-fang-fa/631-gou-zao-fang-fa-de-zuo-yong-yu-ding-yi.md)
+	  * [6.3.2 默认的构造方法](6.-java/63-gou-zao-fang-fa/632-mo-ren-de-gou-zao-fang-fa.md)
+	  * [6.3.3 构造方法的重载](6.-java/63-gou-zao-fang-fa/633-gou-zao-fang-fa-de-zhong-zai.md)
+	  * [6.3.4 从一个构造方法调用另一个构造方法](6.-java/63-gou-zao-fang-fa/634-cong-yi-ge-gou-zao-fang-fa-diao-yong-ling-yi-ge-gou-zao-fang-fa.md)
+	  * [6.3.5 公共构造方法与私有构造方法](6.-java/63-gou-zao-fang-fa/635-gong-gong-gou-zao-fang-fa-yu-si-you-gou-zao-fang-fa.md)
+	* [6.4 静态成员](6.-java/64-jing-tai-cheng-yuan.md)
+	  * [6.4.1 实例成员](6.-java/64-jing-tai-cheng-yuan/641-shi-li-cheng-yuan.md)
+	  * [6.4.2 静态变量](6.-java/64-jing-tai-cheng-yuan/642-jing-tai-bian-liang.md)
+	  * [6.4.3 静态方法](6.-java/64-jing-tai-cheng-yuan/643-jing-tai-fang-fa.md)
+	  * [6.4.4 静态初始化器](6.-java/64-jing-tai-cheng-yuan/644-jing-tai-chu-shi-hua-qi.md)
+	* [6.5 对象的应用](6.-java/6.5.md)
+	  * [6.5.1 对象的赋值与比较](6.-java/6.5/651-dui-xiang-de-fu-zhi-yu-bi-jiao.md)
+	  * [6.5.2 引用变量作为方法的返回值](6.-java/6.5/652-yin-yong-bian-liang-zuo-wei-fang-fa-de-fan-hui-zhi.md)
+	  * [6.5.3 类类型的数组](6.-java/6.5/653-lei-lei-xing-de-shu-zu.md)
+	  * [6.5.4 以对象数组为参数进行方法调用](6.-java/6.5/654-yi-dui-xiang-shu-zu-wei-can-shu-jin-xing-fang-fa-diao-yong.md)
   * 继承、抽象类和接口
   * 异常处理
   * java语言的输入输出与文件处理
