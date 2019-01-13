@@ -4,8 +4,35 @@
 
 * [基础](java/ji-chu.md)
   * java语言开发环境
+    * [1.1 java开发工具](1.-java/1.1-java.md)
   * [java语言基础](java/javayu-yan-ji-chu.md)
+    * [2.1 数据类型](2.-java/21-shu-ju-lei-xing.md)
+	* [2.2 关键字与标识符](2.-java/2.2.md)
+	* [2.3 常量](2.-java/23-chang-liang.md)
+	* [2.4 变量](2.-java/24-bian-liang.md)
+	* [2.5 数据类型转换](2.-java/25-shu-ju-lei-xing-zhuan-huan.md)
+	* [2.6 输入数据](2.-java/26-shu-ru-shu-ju.md)
+	* [2.7 运算符与表达式](2.-java/27-yun-suan-fu-yu-biao-da-shi.md)
+	  * 2.7.1 算术运算符
+	  * 2.7.2. 关系运算符
+	  * 2.7.3 逻辑运算符
+	  * 2.7.4 位运算符
+	  * 2.7.5 赋值运算符
+	  * 2.7.6 条件运算符
+	  * 2.7.7 字符串运算
+	  * 2.7.8 表达式及运算符的优先级、结合性
   * [流程控制](java/liu-cheng-kong-zhi.md)
+    * [3.1 语句与复合语句](3-liu-cheng-kong-zhi/31-yu-ju-yu-fu-he-yu-ju.md)
+	* [3.2 顺序结构](3-liu-cheng-kong-zhi/32-shun-xu-jie-gou.md)
+	* [3.3 分支结构](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou.md)
+	  * [3.3.1 if条件语句](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou/331-iftiao-jian-yu-ju.md)
+	  * [3.3.2 switch选择语句](3-liu-cheng-kong-zhi/33-fen-zhi-jie-gou/332-switchxuan-ze-yu-ju.md)
+	* [3.4 循环结构](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou.md)
+	  * [3.4.1 while语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/341-whileyu-ju.md)
+	  * [3.4.2 do-while语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/342-do-whileyu-ju.md)
+	  * [3.4.3 for循环语句](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/343-forxun-huan-yu-ju.md)
+	  * [3.4.4 多重循环](3-liu-cheng-kong-zhi/34-xun-huan-jie-gou/344-duo-zhong-xun-huan.md)
+	* [3.5 跳转语句](3-liu-cheng-kong-zhi/35-tiao-zhuan-yu-ju.md)
   * 数组与字符串
   * 类和对象
   * Java语言类的特性
