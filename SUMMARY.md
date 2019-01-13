@@ -8,7 +8,7 @@
 * [规范](java/gui-fan.md)
 * [java web架构](java/java-webjia-gou.md)
 * java
- * 1. java语言开发环境
+  * 1. java语言开发环境
     * [1.1 java开发工具](1.-java/1.1-java.md)
 	* 2. java语言基础
 		* [2.1 数据类型](2.-java/21-shu-ju-lei-xing.md)
