@@ -1312,6 +1312,7 @@
   * [35 \| Trie树：如何实现搜索引擎的搜索关键词提示功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/35-trieshu-ff1a-ru-he-shi-xian-sou-suo-yin-qing-de-sou-suo-guan-jian-ci-ti-shi-gong-neng-ff1f.md)
   * [36 \| AC自动机：如何用多模式串匹配实现敏感词过滤功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/36-aczi-dong-ji-ff1a-ru-he-yong-duo-mo-shi-chuan-pi-pei-shi-xian-min-gan-ci-guo-lv-gong-neng-ff1f.md)
   * [37 \| 贪心算法：如何用贪心算法实现Huffman压缩编码？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/37-tan-xin-suan-fa-ff1aru-he-yong-tan-xin-suan-fa-shi-xian-huffman-ya-suo-bian-ma-ff1f.md)
+  * 38 \| 分治算法：谈一谈大规模计算框架MapReduce中的分治思想
 * [计算机组成原理](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li.md)
   * [计算机系统概论](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun.md)
     * [计算机系统简介](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun/ji-suan-ji-xi-tong-jian-jie.md)
