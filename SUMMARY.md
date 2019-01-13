@@ -1271,6 +1271,7 @@
     * [字符串搜索](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/zi-fu-chuan-sou-suo.md)
     * [KMP算法](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/kmpsuan-fa.md)
     * [TrieNode树](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/shi-xian-de-dai-ma/trienodeshu.md)
+    * 贪心例题
   * [开篇词 \| 从今天起，跨过“数据结构与算法”这道坎](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/kai-pian-ci-cong-jin-tian-qi-ff0c-kua-guo-201c-shu-ju-jie-gou-yu-suan-fa-201d-zhe-dao-kan.md)
   * [01 \| 为什么要学习数据结构和算法？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/01-wei-shi-yao-yao-xue-xi-shu-ju-jie-gou-he-suan-fa-ff1f.md)
   * [02 \| 如何抓住重点，系统高效地学习数据结构与算法？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/02-ru-he-zhua-zhu-zhong-dian-ff0c-xi-tong-gao-xiao-di-xue-xi-shu-ju-jie-gou-yu-suan-fa-ff1f.md)
@@ -1310,6 +1311,7 @@
   * [34 \| 字符串匹配基础（下）：如何借助BM算法轻松理解KMP算法？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/34-zi-fu-chuan-pi-pei-ji-chu-ff08-xia-ff09-ff1a-ru-he-jie-zhu-bm-suan-fa-qing-song-li-jie-kmp-suan-fa-ff1f.md)
   * [35 \| Trie树：如何实现搜索引擎的搜索关键词提示功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/35-trieshu-ff1a-ru-he-shi-xian-sou-suo-yin-qing-de-sou-suo-guan-jian-ci-ti-shi-gong-neng-ff1f.md)
   * [36 \| AC自动机：如何用多模式串匹配实现敏感词过滤功能？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/36-aczi-dong-ji-ff1a-ru-he-yong-duo-mo-shi-chuan-pi-pei-shi-xian-min-gan-ci-guo-lv-gong-neng-ff1f.md)
+  * [37 \| 贪心算法：如何用贪心算法实现Huffman压缩编码？](kan-guo-de-shu-ji/shu-ju-jie-gou-yu-suan-fa-zhi-mei/37-tan-xin-suan-fa-ff1aru-he-yong-tan-xin-suan-fa-shi-xian-huffman-ya-suo-bian-ma-ff1f.md)
 * [计算机组成原理](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li.md)
   * [计算机系统概论](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun.md)
     * [计算机系统简介](kan-guo-de-shu-ji/ji-suan-ji-zu-cheng-yuan-li/ji-suan-ji-xi-tong-gai-lun/ji-suan-ji-xi-tong-jian-jie.md)
