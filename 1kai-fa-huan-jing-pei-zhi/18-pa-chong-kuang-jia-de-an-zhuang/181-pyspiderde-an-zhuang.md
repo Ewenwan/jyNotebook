@@ -82,8 +82,6 @@ pip install -U setuptools
 
 [http://localhost:5000/](http://localhost:5000/)即可进入 PySpider 的 WebUI 管理页面![](../../.gitbook/assets/1.8.1-2.png)出现类似上面页面，就代表安装成功了
 
-
-
 在python37中运行命令出现以下错误
 
 ```
@@ -106,4 +104,10 @@ SyntaxError: invalid syntax
 ```
 
 
+
+解决如下:
+
+
+
+![](/assets/spider-15.2.8.1-123.png)
 
