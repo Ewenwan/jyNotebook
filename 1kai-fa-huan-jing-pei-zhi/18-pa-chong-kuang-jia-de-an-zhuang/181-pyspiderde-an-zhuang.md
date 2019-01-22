@@ -103,11 +103,17 @@ Traceback (most recent call last):
 SyntaxError: invalid syntax
 ```
 
-
-
 解决如下:
 
+找到两个文件
+
+E:\Python37\Lib\site-packages\pyspider\fetcher\tornado\_fetcher.py和
+
+E:\Python37\Lib\site-packages\pyspider\run.py类似的路径，然后打开文件，
+
+python37将async作为关键字导致不能正常运行，所有将async替换成其他的，比如"\_async"即可
+
+然后就可以正常运行了
 
 
-![](/assets/spider-15.2.8.1-123.png)
 
