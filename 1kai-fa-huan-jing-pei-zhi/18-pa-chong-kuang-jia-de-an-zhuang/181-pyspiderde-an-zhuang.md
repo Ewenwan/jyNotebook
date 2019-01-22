@@ -82,3 +82,28 @@ pip install -U setuptools
 
 [http://localhost:5000/](http://localhost:5000/)即可进入 PySpider 的 WebUI 管理页面![](../../.gitbook/assets/1.8.1-2.png)出现类似上面页面，就代表安装成功了
 
+
+
+在python37中运行命令出现以下错误
+
+```
+C:\Users\tokimeki>pyspider all
+Traceback (most recent call last):
+  File "E:\Python37\Scripts\pyspider-script.py", line 11, in <module>
+    load_entry_point('pyspider==0.3.10', 'console_scripts', 'pyspider')()
+  File "e:\python37\lib\site-packages\pkg_resources\__init__.py", line 480, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "e:\python37\lib\site-packages\pkg_resources\__init__.py", line 2693, in load_entry_point
+    return ep.load()
+  File "e:\python37\lib\site-packages\pkg_resources\__init__.py", line 2324, in load
+    return self.resolve()
+  File "e:\python37\lib\site-packages\pkg_resources\__init__.py", line 2330, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "e:\python37\lib\site-packages\pyspider\run.py", line 231
+    async=True, get_object=False, no_input=False):
+        ^
+SyntaxError: invalid syntax
+```
+
+
+
