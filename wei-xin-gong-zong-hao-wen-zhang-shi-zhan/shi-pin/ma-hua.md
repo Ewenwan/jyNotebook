@@ -44,7 +44,6 @@
   加载所有配置
   chrome_options.add_argument(r'--user-data-dir=C:\Users\tokimeki\AppData\Local\Google\Chrome\User Data')
   class Mahua:
-
   ```
 
   ```
@@ -148,10 +147,11 @@
       pass
 ```
 
-url = "mahua/m\_video/m\_20180804\_1099/2/5a17fb6f7af51c82a09a508f64260303\_free.m3u8?token=cz03NWJhOTkxYTg3YWMyYTI0Nzg4ZDc5YWE5Mzc4YTYxMCZpPTEyMzQ1ODUyJnA9MTI2MiZ0PTE1NDkzNTMyMjMmbj01YTE3ZmI2ZjdhZjUxYzgyYTA5YTUwOGY2NDI2MDMwM19mcmVlLm0zdTgmcj0xJnY9MS4wLjAmYz0zJmU9NzIw"
+```
+url = "mahua/m_video/m_20180804_1099/2/5a17fb6f7af51c82a09a508f64260303_free.m3u8?token=cz03NWJhOTkxYTg3YWMyYTI0Nzg4ZDc5YWE5Mzc4YTYxMCZpPTEyMzQ1ODUyJnA9MTI2MiZ0PTE1NDkzNTMyMjMmbj01YTE3ZmI2ZjdhZjUxYzgyYTA5YTUwOGY2NDI2MDMwM19mcmVlLm0zdTgmcj0xJnY9MS4wLjAmYz0zJmU9NzIw"
+Mahua().parse_vedio_m3u8(url)
+Mahua().parse_vedio_info()
+```
 
-# Mahua\(\).parse\_vedio\_m3u8\(url\)
 
-Mahua\(\).parse\_vedio\_info\(\)  
-  \`\`\`
 
