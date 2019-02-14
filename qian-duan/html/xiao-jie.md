@@ -212,7 +212,27 @@
     <a href="javascript:alert(1)">click</a>
     ```
 
-    * 
+* form表单:发送数据
+
+  * method:发送方式
+
+    * get
+
+    * post
+
+  * action:发送数据的位置
+
+  * 组件
+
+    * input标签
+
+      * type
+
+        * text:文本
+
+        * password:密码
+
+        * button:按钮
 
 
 
