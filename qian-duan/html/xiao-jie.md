@@ -68,7 +68,17 @@
    * a
    * i:罗马数字
    * ..
-
+ 
+ * 倒序:reversed
+ ```
+ <ol type="A" reversed="reversed">
+	<li>喜羊羊</li>
+	<li>Fate</li>
+	<li>绝对双刃</li>
+</ol>
+ ```
+ 
+ ![](/assets/14.1.8-03.png)
 
 
  	
