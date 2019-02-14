@@ -75,6 +75,7 @@
       ![](blob:file:///3cc2650d-256a-444d-9efa-938d56359a71)
 
     * a
+
     * i:罗马数字
     * ..
 
@@ -103,6 +104,7 @@
     ![](blob:file:///76c502ae-54cc-48aa-a6af-00766546a035)
 
 * 无序列表ul（可以用于导航栏）
+
   * 类型::type
     * square:方块
     * circle:空心圆
@@ -110,61 +112,63 @@
 ```
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		
-		<style>
-			
-			*{
-				margin: 0;
-				padding: 0;
-			}
-			
-			ul{
-				list-style: none;
-			}
-			
-			li{
-				margin: 0 10px;
-				float: left;
-				color: #f40;
-				font-weight: bold;
-				font-size: 14px;
-				height: 25px;
-				line-height: 25px;
-				padding: 0 5px;
-			}
-			
-			li:hover{
-				background-color: #f40;
-				color:#fff;
-				border-radius: 15px;
-			}
-			
-		</style>
-		
-	</head>
-	<body>
-		<ul type="circle">
-			<li>天猫</li>
-			<li>聚划算</li>
-			<li>天猫超市</li>
-		</ul>
-	</body>
-</html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
 
+        <style>
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            ul{
+                list-style: none;
+            }
+
+            li{
+                margin: 0 10px;
+                float: left;
+                color: #f40;
+                font-weight: bold;
+                font-size: 14px;
+                height: 25px;
+                line-height: 25px;
+                padding: 0 5px;
+            }
+
+            li:hover{
+                background-color: #f40;
+                color:#fff;
+                border-radius: 15px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <ul type="circle">
+            <li>天猫</li>
+            <li>聚划算</li>
+            <li>天猫超市</li>
+        </ul>
+    </body>
+</html>
 ```
 
 ![](/assets/14.1.8-05.png)
 
-
-
 * img标签:引用图片
   * src:图片的资源地址
+    * 网络上的url
+    * 本地的绝对路径
+    * 本地的相对路径
+  * alt:图片占位符，在url不存在时，或者显示不出图片时进行提示
+  * title:图片提示符，鼠标移到图片位置进行提示
 
 ```
-<img src="xx.png"/>
+<img src="xx.png" alt=""/>
 ```
 
 
