@@ -48,9 +48,9 @@
  * 默认排序
 ```
 <ol>
-	<li>喜羊羊</li>
-	<li>Fate</li>
-	<li>绝对双刃</li>
+	 <li>喜羊羊</li>
+	 <li>Fate</li>
+	 <li>绝对双刃</li>
 </ol>
 ```
 ![](/assets/14.1.8-01.png)
@@ -72,14 +72,22 @@
  * 倒序:reversed
  ```
  <ol type="A" reversed="reversed">
-	<li>喜羊羊</li>
-	<li>Fate</li>
-	<li>绝对双刃</li>
+	  <li>喜羊羊</li>
+	  <li>Fate</li>
+	  <li>绝对双刃</li>
 </ol>
  ```
  
  ![](/assets/14.1.8-03.png)
 
+ * 定义从第几开始计数
+ ```
+ 		<ol type="1" start="2">
+			<li>喜羊羊</li>
+			<li>Fate</li>
+			<li>绝对双刃</li>
+		</ol>
+ ```
+ ![](/assets/14.1.8-04.png)
 
- 	
  
