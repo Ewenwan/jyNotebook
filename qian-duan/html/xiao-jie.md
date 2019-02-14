@@ -67,12 +67,10 @@
 	<li>绝对双刃</li>
   </ol>
   ```
+![](/assets/14.1.8-02.png)
+
+![](/assets/14.1.8-01.png)
 
 
-<ol type="A">
-  <li>喜羊羊</li>
-  <li>Fate</li>
-  <li>绝对双刃</li>
-</ol>
  	
  
