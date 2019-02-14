@@ -173,10 +173,12 @@
 ```
 
 * a标签\(anchor -- 锚\):超链接
+
   * href
   * target
     * \_blank:在新页面打开超链接
   * 功能:
+
     * 超链接
 
     ```
@@ -206,12 +208,10 @@
     * 协议限定符
 
     ```
-    <a href="javascript:">click</a>
+    <a href="javascript:alert(1)">click</a>
     ```
 
     * 
-
-
 
 
 
