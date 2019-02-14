@@ -57,18 +57,18 @@
 
  * 类型:type
    * A
+   ```
+<ol type="A">
+<li>喜羊羊</li>
+<li>Fate</li>
+<li>绝对双刃</li>
+</ol>
+```
+![](/assets/14.1.8-02.png)
    * a
    * i:罗马数字
    * ..
-  
-	```
-  <ol type="A">
-	<li>喜羊羊</li>
-	<li>Fate</li>
-	<li>绝对双刃</li>
-  </ol>
-	```
-![](/assets/14.1.8-02.png)
+
 
 
  	
