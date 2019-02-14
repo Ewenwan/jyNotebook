@@ -77,6 +77,7 @@
     * a
 
     * i:罗马数字
+
     * ..
 
   * 倒序:reversed
@@ -168,8 +169,17 @@
   * title:图片提示符，鼠标移到图片位置进行提示
 
 ```
-<img src="xx.png" alt=""/>
+<img src="xx.png" alt="占位" title="提示"/>
 ```
+
+* a标签:超链接
+  * href:指定url
+
+```
+<a href="https://www.baidu.com"></a>
+```
+
+
 
 
 
