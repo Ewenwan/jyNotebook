@@ -206,6 +206,7 @@
     ```
 
     * 协议限定符
+      * 执行JavaScript代码
 
     ```
     <a href="javascript:alert(1)">click</a>
