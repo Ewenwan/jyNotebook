@@ -244,5 +244,9 @@
 
       * value
 
+      * onblur:失去焦点
+
+      * onfocus:鼠标聚焦
+
 
 
