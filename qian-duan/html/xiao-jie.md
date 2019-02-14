@@ -232,7 +232,17 @@
 
         * password:密码
 
-        * button:按钮
+        * button:普通按钮
+
+        * submit:提交按钮
+
+        * radio:单选框
+
+        * checkbox:复选框
+
+      * name属性
+
+      * value
 
 
 
