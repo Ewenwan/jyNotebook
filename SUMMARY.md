@@ -823,6 +823,7 @@
     * [HTML5 SSE](html-api/HTML5 SSE.md)
   * HTML标签
     * [HTML标签](html/html 标签label.md)
+  * [小结](qian-duan/html/xiao-jie.md)
 * [css](qian-duan/css.md)
   * css基础教程
     * [css 简介](css/CSS 简介.md)
@@ -1519,3 +1520,4 @@
   * [进程与线程](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/jin-cheng-de-ding-yi-zu-cheng-zu-zhi-fang-shi-te-zheng.md)
   * [处理机调度](kan-guo-de-shu-ji/ji-suan-ji-cao-zuo-xi-tong/chu-li-ji-diao-du.md)
 * 计算机网络
+
