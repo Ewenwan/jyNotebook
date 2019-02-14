@@ -56,9 +56,9 @@
 ![](/assets/14.1.8-01.png)
 
  * 类型:type
-  * A
-  * a
-  * ..
+   * A
+   * a
+   * ..
   
   ```
   <ol type="A">
@@ -67,10 +67,12 @@
 	<li>绝对双刃</li>
   </ol>
   ```
+
+
 <ol type="A">
-<li>喜羊羊</li>
-<li>Fate</li>
-<li>绝对双刃</li>
+  <li>喜羊羊</li>
+  <li>Fate</li>
+  <li>绝对双刃</li>
 </ol>
  	
  
