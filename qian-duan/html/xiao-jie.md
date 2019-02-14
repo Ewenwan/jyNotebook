@@ -172,12 +172,44 @@
 <img src="xx.png" alt="占位" title="提示"/>
 ```
 
-* a标签:超链接
-  * href:指定url
+* a标签\(anchor -- 锚\):超链接
+  * href
+  * target
+    * \_blank:在新页面打开超链接
+  * 功能:
+    * 超链接
 
-```
-<a href="https://www.baidu.com"></a>
-```
+    ```
+    <a href="https://www.baidu.com"></a>
+    ```
+
+    * 锚点:调到指定id的位置
+
+    ```
+    <div id="id"></div>
+
+    <a href="#id"></a>
+    ```
+
+    * 打电话
+
+    ```
+    <a href="tel:1555xxxxx"></a>
+    ```
+
+    * 发邮件
+
+    ```
+    <a href="mailto:xxx@qq.com"></a>
+    ```
+
+    * 协议限定符
+
+    ```
+    <a href="javascript:">click</a>
+    ```
+
+    * 
 
 
 
