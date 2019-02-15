@@ -81,28 +81,55 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		<style type="text/css">
-			#only{
-				background: red;
-			}
-			
-			div{
-				background: green;
-			}
-		</style>
-	</head>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style type="text/css">
+            #only{
+                background: red;
+            }
 
-	<body>
-		<div id="only">1</div>
-		<div class="oo">2</div>
-	</body>
+            div{
+                background: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="only">1</div>
+        <div class="oo">2</div>
+    </body>
 
 </html>
 ```
 
-* 
+* 分组选择器:通过使用逗号
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <style type="text/css">
+            #only,a{
+                background: red;
+            }
+
+            div{
+                background: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="only">1</div>
+        <a class="oo">2</a>
+    </body>
+
+</html>
+```
+
 
 
