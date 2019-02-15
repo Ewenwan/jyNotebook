@@ -382,5 +382,119 @@ background: red;
   * 盒子内容:weight + height
   * margin + border + padding + \(content\)
 
+* 单个盒子
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	div{
+		width: 100px;
+		height: 100px ;
+		background-color: red;
+		border:10px solid black;
+		padding: 35px;
+		margin: 10px;
+	}
+</style>
+</head>
+<body>
+	<div>angleangleangle</div>
+</body>
+</html>
+```
+
+![](/assets/14.2.10.3-06.png)
+
+* 两个盒子
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	
+	div{
+		width: 100px;
+		height: 100px;
+	}
+	
+	.wapper{
+		background-color: red;
+	}
+	.content{
+		background-color: black;
+	}
+</style>
+</head>
+<body>
+	<div class="wapper">
+		<div class="content">
+			
+		</div>
+	</div>
+</body>
+</html>
+```
+
+![](/assets/14.2.10.3-07.png)
+
+两个盒子重叠起来了
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	
+	div{
+		width: 100px;
+		height: 100px;
+	}
+	
+	.wapper{
+		border:10px solid green;
+		background-color: red;
+		padding: 100px;
+	}
+	.content{
+		background-color: black;
+	}
+</style>
+</head>
+<body>
+	<div class="wapper">
+		<div class="content">
+			
+		</div>
+	</div>
+</body>
+</html>
+```
+
+![](/assets/14.2.10.3-08.png)
+
+* padding用法
+
+```
+padding:100px; => padding:100px 100px 100px 100px;(顺序:上左下右)
+
+
+padding:100px 50px;(上下 左右)
+
+
+padding:10px 50px 100px;
+```
+
 
 
