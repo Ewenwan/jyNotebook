@@ -884,7 +884,7 @@
   * CSS3 参考手册
     * [CSS3 参考手册](css/CSS3 参考手册.md)
   * [CSS小结](qian-duan/css/cssxiao-jie.md)
-    * css引入css基础选择器选择器权重
+    * [css引入css基础选择器选择器权重](qian-duan/css/cssxiao-jie/cssyin-ru-css-ji-chu-xuan-ze-qi-xuan-ze-qi-quan-zhong.md)
 * [js](qian-duan/js.md)
   * JS 教程
     * [JS 教程](js/js 教程.md)
