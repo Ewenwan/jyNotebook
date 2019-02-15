@@ -252,5 +252,18 @@
 
       * onfocus:鼠标聚焦
 
+    * select标签
+
+    ```
+    <select name="province">
+     <option>a</option>
+     <option>b</option>
+     <option>c</option>
+     <option>d</option>
+    </select>
+    ```
+
+    * 
+
 
 
