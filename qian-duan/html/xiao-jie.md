@@ -58,7 +58,7 @@
             </ol>
     ```
 
-    ![](blob:file:///0acbc02f-d8f9-49bf-9344-3f9d5df9baa5)
+    !\[\]\(/assets/14.0.1-01/png\)
 
   * 类型:type
 
