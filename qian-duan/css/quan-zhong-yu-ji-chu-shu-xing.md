@@ -146,7 +146,9 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
   * italic:斜体
 
 * font-size:字体大小
+
   * px
+
 * font-famity:字体
 * color
   * rgb
@@ -158,12 +160,15 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 * width:宽度
 * height:高度
 * border:边框
+
   * border-left-color:左边颜色
   * border-top-color:顶部颜色border:100px solid black;
 
     * transparent:透明度
 
 ```
+# 利用border画出三角形
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -172,12 +177,12 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 <title></title>
 <style type="text/css">
 div{
-	width:0px;
-	height: 0px;
-	border: 100px solid black;
-	border-left-color: transparent;
-	border-top-color: transparent;
-	border-right-color:transparent;
+    width:0px;
+    height: 0px;
+    border: 100px solid black;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color:transparent;
 }
 
 </style>
@@ -190,5 +195,5 @@ div{
 </html>
 ```
 
-
+![](/assets/14.2.10.2-03.png)
 
