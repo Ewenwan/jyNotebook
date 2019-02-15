@@ -140,15 +140,65 @@ a:hover{
     * 内容决定元素所占位置
     * 不可以通过css改变宽高
 * 块级元素:div、p、ul、li、form、ol、address
+
   * feature
     * 独占一行
     * 可以通过css改变宽高
 
 * 行级块元素:inline-block
+
   * feature:
     * 内容决定大小
     * 可以改变宽高
 
+```
+1.通过display:block修改为块级元素
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+span{
+display: block;
+width: 100px;
+height: 100px;
+background: red;
+}
+</style>
+</head>
+<body>
+<span>CoderAngle</span>
+</body>
+</html>
+
+
+
+2.通过display:inline修改为行级元素
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+span{
+display: inline;
+width: 100px;
+height: 100px;
+background: red;
+}
+</style>
+</head>
+<body>
+<span>CoderAngle</span>
+</body>
+</html>
+```
 
 
 
