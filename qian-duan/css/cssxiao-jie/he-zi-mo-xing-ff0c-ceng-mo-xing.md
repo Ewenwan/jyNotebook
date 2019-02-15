@@ -200,5 +200,179 @@ background: red;
 </html>
 ```
 
+---
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	.box1{
+		width: 100px;
+		height: 100px;
+		background: red;
+	}
+	
+	.box2{
+		width: 200px;
+		height: 200px;
+		background: red;
+	}
+	
+	.box3{
+		width: 300px;
+		height: 300px;
+		background: red;
+	}
+	
+	.box4{
+		width: 100px;
+		height: 100px;
+		background: red;
+	}
+	
+	.box5{
+		width: 200px;
+		height: 200px;
+		background: red;
+	}
+</style>
+</head>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+	<div class="box4"></div>
+	<div class="box5"></div>
+</body>
+</html>
+```
+
+样式表看起来有点冗余
+
+* 先定义功能后，后组合
+  * 方便，便于维护
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	.green{
+		background-color: green;
+	}
+	
+	.gray{
+		background-color: gray;
+	}
+	
+	.red{
+		background-color: red;
+	}
+	
+	.size1{
+		width: 100px;
+		height: 100px;
+	}
+	
+	.size2{
+		width: 200px;
+		height: 200px;
+	}
+	
+	.size3{
+		width: 300px;
+		height: 300px;
+	}
+</style>
+</head>
+<body>
+	<div class="red size1"></div>
+	<div class="gray size2"></div>
+	<div class="green size3"></div>
+	<div class="red size1"></div>
+	<div class="green size2"></div>
+</body>
+</html>
+```
+
+### 自定义功能
+
+* 初始化标签
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	em{
+		font-style: normal;
+		color: #FF0000;
+	}
+	
+	a{
+		text-decoration: none;
+		color: #c00;
+	}
+	
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+</style>
+</head>
+<body>
+	<em>angle</em>
+	<a href="">www.baidu.com</a>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+</html>
+```
+
+* 定义所有标签初始化默认样式
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style type="text/css">
+	
+	*{
+		padding: 0;
+		margin: 0;
+		text-decoration: none;
+		list-style: none;
+	}
+</style>
+</head>
+<body>
+	<em>angle</em>
+	<a href="https://www.baidu.com">www.baidu.com</a>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+</html>
+```
+
 
 
