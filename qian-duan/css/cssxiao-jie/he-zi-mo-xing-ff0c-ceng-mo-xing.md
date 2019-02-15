@@ -210,43 +210,43 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	.box1{
-		width: 100px;
-		height: 100px;
-		background: red;
-	}
-	
-	.box2{
-		width: 200px;
-		height: 200px;
-		background: red;
-	}
-	
-	.box3{
-		width: 300px;
-		height: 300px;
-		background: red;
-	}
-	
-	.box4{
-		width: 100px;
-		height: 100px;
-		background: red;
-	}
-	
-	.box5{
-		width: 200px;
-		height: 200px;
-		background: red;
-	}
+    .box1{
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+
+    .box2{
+        width: 200px;
+        height: 200px;
+        background: red;
+    }
+
+    .box3{
+        width: 300px;
+        height: 300px;
+        background: red;
+    }
+
+    .box4{
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+
+    .box5{
+        width: 200px;
+        height: 200px;
+        background: red;
+    }
 </style>
 </head>
 <body>
-	<div class="box1"></div>
-	<div class="box2"></div>
-	<div class="box3"></div>
-	<div class="box4"></div>
-	<div class="box5"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
 </body>
 </html>
 ```
@@ -264,40 +264,40 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	.green{
-		background-color: green;
-	}
-	
-	.gray{
-		background-color: gray;
-	}
-	
-	.red{
-		background-color: red;
-	}
-	
-	.size1{
-		width: 100px;
-		height: 100px;
-	}
-	
-	.size2{
-		width: 200px;
-		height: 200px;
-	}
-	
-	.size3{
-		width: 300px;
-		height: 300px;
-	}
+    .green{
+        background-color: green;
+    }
+
+    .gray{
+        background-color: gray;
+    }
+
+    .red{
+        background-color: red;
+    }
+
+    .size1{
+        width: 100px;
+        height: 100px;
+    }
+
+    .size2{
+        width: 200px;
+        height: 200px;
+    }
+
+    .size3{
+        width: 300px;
+        height: 300px;
+    }
 </style>
 </head>
 <body>
-	<div class="red size1"></div>
-	<div class="gray size2"></div>
-	<div class="green size3"></div>
-	<div class="red size1"></div>
-	<div class="green size2"></div>
+    <div class="red size1"></div>
+    <div class="gray size2"></div>
+    <div class="green size3"></div>
+    <div class="red size1"></div>
+    <div class="green size2"></div>
 </body>
 </html>
 ```
@@ -314,31 +314,31 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	em{
-		font-style: normal;
-		color: #FF0000;
-	}
-	
-	a{
-		text-decoration: none;
-		color: #c00;
-	}
-	
-	ul{
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
+    em{
+        font-style: normal;
+        color: #FF0000;
+    }
+
+    a{
+        text-decoration: none;
+        color: #c00;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
 </style>
 </head>
 <body>
-	<em>angle</em>
-	<a href="">www.baidu.com</a>
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+    <em>angle</em>
+    <a href="">www.baidu.com</a>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </body>
 </html>
 ```
@@ -353,26 +353,36 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	
-	*{
-		padding: 0;
-		margin: 0;
-		text-decoration: none;
-		list-style: none;
-	}
+
+    *{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+    }
 </style>
 </head>
 <body>
-	<em>angle</em>
-	<a href="https://www.baidu.com">www.baidu.com</a>
-	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
+    <em>angle</em>
+    <a href="https://www.baidu.com">www.baidu.com</a>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </body>
 </html>
 ```
+
+### 盒子模型
+
+* 组成部分
+  * 盒子边框:border
+  * 内边距:padding
+  * 盒子内容:weight + height
+  * margin + border + padding + \(content\)
+
+
 
 
 
