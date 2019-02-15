@@ -58,7 +58,7 @@
             </ol>
     ```
 
-    !\[\]\(/assets/14.0.1-01/png\)
+    ![](/assets/14.1.8-01.png)
 
   * 类型:type
 
@@ -72,7 +72,7 @@
       </ol>
       ```
 
-      ![](blob:file:///3cc2650d-256a-444d-9efa-938d56359a71)
+      ![](/assets/14.1.8-02.png)
 
     * a
 
@@ -90,7 +90,7 @@
     </ol>
     ```
 
-    ![](blob:file:///8d63f53f-3890-4313-9156-ebf204f157b9)
+    ![](/assets/14.1.8-03.png)
 
   * 定义从第几开始计数
 
@@ -102,7 +102,7 @@
     </ol>
     ```
 
-    ![](blob:file:///76c502ae-54cc-48aa-a6af-00766546a035)
+    ![](/assets/14.1.8-04.png)
 
 * 无序列表ul（可以用于导航栏）
 
@@ -238,7 +238,15 @@
 
         * radio:单选框
 
+          * name属性值一样
+
         * checkbox:复选框
+
+          * name属性值一样
+
+          * checkd属性值
+
+            * `<input type="checkbox" checkd="checkd">`
 
       * name属性
 
