@@ -551,15 +551,59 @@ padding:10px 50px 100px;(上 左右 下)
 
 ![](/assets/14.2.10.3-09.png)
 
-
-
 ### 定位
 
 * position
   * absolute:绝对定位
-  * 
+    * 脱离原来定位
+  * relative:相对定位
 
+    * 保留原来定位
 
+    ```
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+    	.wrapper{
+    		margin-left: 100px;
+    		height: 200px;
+    		width: 200px;
+    		background-color: orange;
+    	}
+	
+    	.content{
+    		margin-left: 100px;
+    		height: 100px;
+    		width: 100px;
+    		background-color: black;
+    	}
+	
+    	.box{
+    		position: relative;
+    		left: 50px;
+    		width: 50px;
+    		height: 50px;
+    		background-color: yellow;
+    	}
+    </style>
+    </head>
+    <body>
+    	<div class="wrapper">
+    		<div class="content">
+    			<div class="box">
+    			</div>
+    		</div>
+    	</div>
+	
+    </body>
+    </html>
+    ```
+
+  * fixed:
 
 ### 常识
 
