@@ -9,6 +9,7 @@
   * Google Chrome:Webkit/blink
 
   * Safari:Webkit
+
   * Opera:presto
 
 * 原因
@@ -72,6 +73,7 @@
 ```
 
 * 外部css文件
+
   * 新建一个index.css，将css样式写入其中
 
   ```
@@ -136,8 +138,9 @@ div{
 * 属性选择器
 
 ```
+<!--选中属性为id，属性值为only的标签-->
 [id="only"]{
-
+    background: red;
 }
 ```
 
@@ -145,9 +148,9 @@ div{
 
 ```
 div {
-	width: 100px;
-	height: 100px;
-	background: red;!important
+    width: 100px;
+    height: 100px;
+    background: red;!important
 }
 ```
 
