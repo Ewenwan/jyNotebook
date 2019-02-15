@@ -620,23 +620,23 @@ padding:10px 50px 100px;(上 左右 下)
     <meta charset="utf-8" />
     <title></title>
     <style type="text/css">
-    	*{
-    		margin: 0;
-    		padding: 0;
-    	}
-	
-    	div{
-    		position: absolute;
-    		left: 50%;
-    		top:50%;
-    		width: 100px;
-    		height: 100px;
-    		background-color: red;
-    	}
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            position: absolute;
+            left: 50%;
+            top:50%;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
     </style>
     </head>
     <body>
-    	<div></div>	
+        <div></div>    
     </body>
     </html>
     ```
@@ -645,5 +645,89 @@ padding:10px 50px 100px;(上 左右 下)
 
 * body的margin默认样式为8px
 
+作业五个圆环
 
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="up">
+			<div class="circle blue"></div>
+			<div class="black circle"></div>
+			<div class="red circle"></div>
+		</div>
+		<div class="down">
+			<div class="yellow circle"></div>
+			<div class="green circle"></div>
+		</div>
+	</div>
+</body>
+</html>
+```
+
+```
+.blue{
+	border: 10px solid blue;
+	z-index: 1;
+}
+
+.red{
+	border: 10px solid red;
+	z-index: 1;
+}
+
+.yellow{
+	border: 10px solid yellow;
+}
+
+.black{
+	border: 10px solid black;
+	z-index: 1;
+}
+
+.green{
+	border: 10px solid green;
+}
+
+
+.circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.up,.down{
+	display:block;
+	height: 100px;
+}
+
+
+.wrapper{
+	display: block;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+}
+
+.up>div,.down>div{
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+
+.down > div{
+	left: 70px;
+	top: -100px;
+}
+
+```
+
+![](/assets/14.2.10.3-11.png)
 
