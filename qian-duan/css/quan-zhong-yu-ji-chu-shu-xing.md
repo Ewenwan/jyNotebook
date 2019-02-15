@@ -103,7 +103,7 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 </html>
 ```
 
-* 分组选择器:通过使用逗号
+* 分组选择器:通过使用逗号，可以减少代码耦合度
 
 ```
 <!DOCTYPE html>
@@ -131,5 +131,33 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 </html>
 ```
 
+### 属性
+
+* font-weight：字体粗细
+  * lighter
+  * normal
+  * bold,相当于700
+  * bolder
+  * 100-900
+
+* font-style:字体样式
+  * italic:斜体
+* font-size:字体大小
+  * px
+* font-famity:字体
+* color
+  * rgb
+    * 00-ff：\#00ff00
+    * 每两位相同可以简写:
+      * \#ff4400
+      * \#f40
+    * rgb\(0,0,0\)
+* width:宽度
+* height:高度
+* border:边框
+  ```
+  border:100px solid black;
+  ```
+* 
 
 
