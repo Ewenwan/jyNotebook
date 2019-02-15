@@ -9,9 +9,9 @@
 <title></title>
 <style type="text/css">
 div{
-	width:100px;
-	height: 100px;
-	border: 1px solid black;
+    width:100px;
+    height: 100px;
+    border: 1px solid black;
 }
 
 </style>
@@ -24,8 +24,6 @@ div{
 ```
 
 ![](/assets/14.2.10.3-01.png)
-
-
 
 ---
 
@@ -51,11 +49,11 @@ div{
 <title></title>
 <style type="text/css">
 div{
-	line-height: 16px;
-	height: 200px;
-	border: 1px solid black;
-	text-align: left;/*左对齐*/
-	text-indent: 2em;/*文本缩进*/
+    line-height: 16px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: left;/*左对齐*/
+    text-indent: 2em;/*文本缩进*/
 }
 
 </style>
@@ -80,19 +78,19 @@ div{
 <title></title>
 <style type="text/css">
 
-	span{
-		text-decoration: line-through;
-	}
-	
-	del{
-		text-decoration: none;
-	}
+    span{
+        text-decoration: line-through;
+    }
+
+    del{
+        text-decoration: none;
+    }
 
 </style>
 </head>
 <body>
-	<del>原价50元</del>
-	<span>原价50元</span>
+    <del>原价50元</del>
+    <span>原价50元</span>
 </body>
 </html>
 ```
@@ -107,23 +105,21 @@ div{
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	span{
-		color: rgb(0,0,238);
-		text-decoration: underline;
-		cursor: help;/*光标*/
-	}
+    span{
+        color: rgb(0,0,238);
+        text-decoration: underline;
+        cursor: help;/*光标*/
+    }
 </style>
 </head>
 <body>
-	<span>www.baidu.com</span>
-	<a href="www.baidu.com">www.baidu.com</a>
+    <span>www.baidu.com</span>
+    <a href="www.baidu.com">www.baidu.com</a>
 </body>
 </html>
 ```
 
 ![](/assets/14.2.10.3-04.png)
-
-
 
 ### 伪类选择器
 
@@ -131,7 +127,7 @@ div{
 
 ```
 a:hover{
-
+    background:red;
 }
 ```
 
