@@ -377,6 +377,7 @@ background: red;
 ### [盒子模型](/css/CSS 框模型概述.md)
 
 * 组成部分
+
   * 盒子边框:border
   * 内边距:padding
   * 盒子内容:weight + height
@@ -392,18 +393,18 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	div{
-		width: 100px;
-		height: 100px ;
-		background-color: red;
-		border:10px solid black;
-		padding: 35px;
-		margin: 10px;
-	}
+    div{
+        width: 100px;
+        height: 100px ;
+        background-color: red;
+        border:10px solid black;
+        padding: 35px;
+        margin: 10px;
+    }
 </style>
 </head>
 <body>
-	<div>angleangleangle</div>
+    <div>angleangleangle</div>
 </body>
 </html>
 ```
@@ -420,26 +421,26 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	
-	div{
-		width: 100px;
-		height: 100px;
-	}
-	
-	.wapper{
-		background-color: red;
-	}
-	.content{
-		background-color: black;
-	}
+
+    div{
+        width: 100px;
+        height: 100px;
+    }
+
+    .wapper{
+        background-color: red;
+    }
+    .content{
+        background-color: black;
+    }
 </style>
 </head>
 <body>
-	<div class="wapper">
-		<div class="content">
-			
-		</div>
-	</div>
+    <div class="wapper">
+        <div class="content">
+
+        </div>
+    </div>
 </body>
 </html>
 ```
@@ -456,28 +457,28 @@ background: red;
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	
-	div{
-		width: 100px;
-		height: 100px;
-	}
-	
-	.wapper{
-		border:10px solid green;
-		background-color: red;
-		padding: 100px;
-	}
-	.content{
-		background-color: black;
-	}
+
+    div{
+        width: 100px;
+        height: 100px;
+    }
+
+    .wapper{
+        border:10px solid green;
+        background-color: red;
+        padding: 100px;
+    }
+    .content{
+        background-color: black;
+    }
 </style>
 </head>
 <body>
-	<div class="wapper">
-		<div class="content">
-			
-		</div>
-	</div>
+    <div class="wapper">
+        <div class="content">
+
+        </div>
+    </div>
 </body>
 </html>
 ```
@@ -493,7 +494,7 @@ padding:100px; => padding:100px 100px 100px 100px;(顺序:上左下右)
 padding:100px 50px;(上下 左右)
 
 
-padding:10px 50px 100px;
+padding:10px 50px 100px;(上 左右 下)
 ```
 
 
