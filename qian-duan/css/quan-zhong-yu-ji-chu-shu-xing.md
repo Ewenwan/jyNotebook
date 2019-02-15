@@ -75,7 +75,7 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 </html>
 ```
 
-* 并列选择器
+* 并列选择器：相同的计算机权重
 
 ```
 <!DOCTYPE html>
@@ -85,19 +85,24 @@ section>(div>(p>a>span)+ul>(li>(a>span>em)+p)+li)+a>(p>em)+div
 		<meta charset="utf-8" />
 		<title></title>
 		<style type="text/css">
-			div,a{
+			#only{
 				background: red;
+			}
+			
+			div{
+				background: green;
 			}
 		</style>
 	</head>
 
 	<body>
-		<a href="">a</a>
-		<div>2</div>
+		<div id="only">1</div>
+		<div class="oo">2</div>
 	</body>
 
 </html>
 ```
 
+* 
 
 
