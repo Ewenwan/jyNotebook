@@ -374,15 +374,13 @@ background: red;
 </html>
 ```
 
-### 盒子模型
+### [盒子模型](/css/CSS 框模型概述.md)
 
 * 组成部分
   * 盒子边框:border
   * 内边距:padding
   * 盒子内容:weight + height
   * margin + border + padding + \(content\)
-
-
 
 
 
