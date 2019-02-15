@@ -152,21 +152,15 @@ div {
     height: 100px;
     background: green !important;
 }
+
+优先级(256进制)
+!important:Infinity
+行间样式:1000
+id:100
+class|属性|伪类:10
+标签|伪元素:1
+通配符:0
 ```
-
-* 优先级\(256进制\)
-
-  * !important:Infinity
-
-  * 行间样式:1000
-
-  * id:100
-
-  * class\|属性\|伪类:10
-
-  * 标签\|伪元素:1
-
-  * 通配符:0
 
 
 
