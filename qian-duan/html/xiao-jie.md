@@ -252,7 +252,7 @@
 
       * onfocus:鼠标聚焦
 
-    * select标签
+    * select标签:选择
 
     ```
     <select name="province">
