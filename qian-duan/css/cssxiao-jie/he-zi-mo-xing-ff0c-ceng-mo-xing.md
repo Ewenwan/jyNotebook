@@ -507,47 +507,63 @@ padding:10px 50px 100px;(上 左右 下)
 <meta charset="utf-8" />
 <title></title>
 <style type="text/css">
-	.content1{
-		height: 10px;
-		width: 10px;
-		background: yellow;
-	}
-	
-	.content{
-		height: 10px;
-		width: 10px;
-		padding: 10px;
-		background: #fff;
-	}
-	
-	.box{
-		height: 30px;
-		width: 30px;
-		padding: 10px;
-		background: yellow;
-	}
-	
-	.wapper{
-		height: 50px;
-		width: 50px;
-		padding: 10px;
-		background: #fff;
-	}
+    .content1{
+        height: 10px;
+        width: 10px;
+        background: yellow;
+    }
+
+    .content{
+        height: 10px;
+        width: 10px;
+        padding: 10px;
+        background: #fff;
+    }
+
+    .box{
+        height: 30px;
+        width: 30px;
+        padding: 10px;
+        background: yellow;
+    }
+
+    .wapper{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        background: #fff;
+    }
 </style>
 </head>
 <body>
-	<div class="wapper">
-		<div class="box">
-			<div class="content">
-				<div class="content1">
-					
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="wapper">
+        <div class="box">
+            <div class="content">
+                <div class="content1">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 ```
 
 ![](/assets/14.2.10.3-09.png)
+
+
+
+### 定位
+
+* position
+  * absolute:绝对定位
+  * 
+
+
+
+### 常识
+
+* body的margin默认样式为8px
+
+
 
