@@ -488,7 +488,7 @@ background: red;
 * padding用法
 
 ```
-padding:100px; => padding:100px 100px 100px 100px;(顺序:上左下右)
+padding:100px; => padding:100px 100px 100px 100px;(顺序:上右下左)
 
 
 padding:100px 50px;(上下 左右)
