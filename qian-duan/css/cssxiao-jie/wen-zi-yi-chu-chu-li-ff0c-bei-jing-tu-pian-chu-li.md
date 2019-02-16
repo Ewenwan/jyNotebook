@@ -38,5 +38,31 @@ p{
 
 * 多行文本:通过计算，手动打"..."
 
+### 图片
+
+* background-image
+
+```
+background-image:url()
+```
+
+* background-size
+
+```
+background-size:width,height
+```
+
+* background-repeat
+
+```
+background-repeat:no-repeat;/*不重复*/
+```
+
+* background-position
+
+```
+background-positio:top left;左上方
+```
+
 
 
