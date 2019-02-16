@@ -133,45 +133,68 @@
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="index2.css"/>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="content">
-				
-			</div>
-		</div>
-	</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="index2.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">
 
+            </div>
+        </div>
+    </body>
+</html>
 ```
 
 ```
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
+.wrapper{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.content{
+    margin-left: 50px;
+    margin-top: 100px;
+    width:50px;
+    height: 50px;
+    background-color: purple;
+}
+```
+
+* 解决一：但不能这样做
+
+```
 .wrapper{
 	margin-left: 100px;
 	margin-top: 100px;
 	width: 100px;
 	height: 100px;
 	background-color: black;
+	border:1px solid black;
 }
-
-.content{
-	margin-left: 50px;
-	margin-top: 100px;
-	width:50px;
-	height: 50px;
-	background-color: purple;
-}
-
 ```
+
+* bfc\(block format context\)
+  * 如何触发一个盒子的bfc
+
+  ```
+  position:absolute;
+  display:inline-block;
+  float:left/right;
+  overflow:hidden;
+  ```
+
+  * 
 
 
 
