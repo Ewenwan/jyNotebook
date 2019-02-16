@@ -207,27 +207,25 @@
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="index2.css"/>
-	</head>
-	<body>
-		<span></span>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="index2.css"/>
+    </head>
+    <body>
+        <span></span>
+    </body>
 </html>
-
 ```
 
 ```
 span:before{
-	content: "angle";
+    content: "angle";
 }
 
 span:after{
-	content: "mi";
+    content: "mi";
 }
-
 ```
 
 * 利用伪元素清除浮动
@@ -235,47 +233,49 @@ span:after{
 ```
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="index2.css"/>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="content">1</div>
-			<div class="content">2</div>
-			<div class="content">3</div>
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="index2.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content">1</div>
+            <div class="content">2</div>
+            <div class="content">3</div>
+        </div>
+    </body>
 </html>
-
 ```
 
 ```
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper:after{
-	content: "";
-	clear: both;
-	display: block;
+    content: "";
+    clear: both;
+    display: block;
 }
 
 .wrapper{
-	border:1px solid black;
+    border:1px solid black;
 }
 
 .content{
-	float: left;
-	width: 100px;
-	height: 100px;
-	background-color: black;
-	color: #fff;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
 }
-
 ```
 
 ![](/assets/14.2.10.4-03.png)
+
+* position:abolute和float:left/right会把元素变为inline-block
+
+
 
