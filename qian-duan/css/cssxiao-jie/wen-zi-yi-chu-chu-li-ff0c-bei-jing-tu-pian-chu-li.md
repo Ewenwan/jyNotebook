@@ -64,5 +64,52 @@ background-repeat:no-repeat;/*不重复*/
 background-positio:top left;左上方
 ```
 
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="index2.css"/>
+	</head>
+	<body>
+		<a href="http://www.taobao.com" target="_blank">淘宝网</a>
+	</body>
+</html>
+
+```
+
+```
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: #424242;
+	width: 190px;
+	height: 90px;
+	border: 1px solid black;
+	background-image: url(//img3.mukewang.com/56d3f49e000136f106000338-240-135.jpg);
+	background-size: 190px 90px;
+
+	text-indent: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+
+```
+
+![](/assets/14.2.10.5-01.png) ![](/assets/14.2.10.5-02.png)
+
+
+
+* 注意p标签不能套块级元素
+* a标签不能套a标签
+
 
 
