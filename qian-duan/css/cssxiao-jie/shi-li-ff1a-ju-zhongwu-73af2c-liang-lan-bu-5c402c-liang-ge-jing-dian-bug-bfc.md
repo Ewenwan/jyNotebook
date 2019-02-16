@@ -188,17 +188,94 @@
 
   * 如何触发一个盒子的bfc
 
-  ```
-  position:absolute;
-  display:inline-block;
-  float:left/right;
-  overflow:hidden; /*溢出部分隐藏*/
+  \`\`\`  
+  position:absolute;  
+  display:inline-block;  
+  float:left/right;  
+  overflow:hidden; /_溢出部分隐藏_/
 
-
-  以上都可以解决margin塌陷
-  ```
+以上都可以解决margin塌陷  
+  \`\`\`
 
 * 浮动元素产生了浮动流，所有产生了浮动流的元素，块级元素看不到它们，产生了bfc的元素和文本类属性元素\(inline\)的元素以及文本都能看到浮动元素
-* 
 
+### 伪元素
+
+* ::before
+* ::after
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="index2.css"/>
+	</head>
+	<body>
+		<span></span>
+	</body>
+</html>
+
+```
+
+```
+span:before{
+	content: "angle";
+}
+
+span:after{
+	content: "mi";
+}
+
+```
+
+* 利用伪元素清除浮动
+
+```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="index2.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="content">1</div>
+			<div class="content">2</div>
+			<div class="content">3</div>
+		</div>
+	</body>
+</html>
+
+```
+
+```
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.wrapper{
+	border:1px solid black;
+}
+
+.content{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	color: #fff;
+}
+
+```
+
+![](/assets/14.2.10.4-03.png)
 
