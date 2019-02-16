@@ -193,9 +193,12 @@
   display:inline-block;
   float:left/right;
   overflow:hidden; /*溢出部分隐藏*/
+
+
+  以上都可以解决margin塌陷
   ```
 
-  * 
-
+* 浮动元素产生了浮动流，所有产生了浮动流的元素，块级元素看不到它们，产生了bfc的元素和文本类属性元素\(inline\)的元素以及文本都能看到浮动元素
+* 
 
 
