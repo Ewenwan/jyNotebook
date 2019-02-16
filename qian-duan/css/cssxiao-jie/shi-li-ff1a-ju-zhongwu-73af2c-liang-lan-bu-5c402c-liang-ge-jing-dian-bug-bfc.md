@@ -175,23 +175,24 @@
 
 ```
 .wrapper{
-	margin-left: 100px;
-	margin-top: 100px;
-	width: 100px;
-	height: 100px;
-	background-color: black;
-	border:1px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border:1px solid black;
 }
 ```
 
 * bfc\(block format context\)
+
   * 如何触发一个盒子的bfc
 
   ```
   position:absolute;
   display:inline-block;
   float:left/right;
-  overflow:hidden;
+  overflow:hidden; /*溢出部分隐藏*/
   ```
 
   * 
