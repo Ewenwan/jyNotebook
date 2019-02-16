@@ -84,11 +84,51 @@
 
 ![](/assets/14.2.10.4-01.png)
 
-
-
 ### 两栏布局
 
 利用position进行绝对定位，然后使用margin-left让出被占的内容位置
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="index2.css"/>
+    </head>
+    <body>
+        <div class="right"></div>
+        <div class="left"></div>
+    </body>
+</html>
+```
+
+```
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.left{
+    margin-right: 100px;
+    height: 100px;
+    background-color:burlywood ;
+}
+```
+
+![](/assets/14.2.10-5ada5.png)
+
+### 父子元素的垂直时margin的问题
+
+垂直时，子元素的margin-top值大于父元素的margin-top值，父元素会跟随子元素走
 
 ```
 <!DOCTYPE html>
@@ -99,8 +139,11 @@
 		<link rel="stylesheet" type="text/css" href="index2.css"/>
 	</head>
 	<body>
-		<div class="right"></div>
-		<div class="left"></div>
+		<div class="wrapper">
+			<div class="content">
+				
+			</div>
+		</div>
 	</body>
 </html>
 
@@ -112,21 +155,23 @@
 	padding: 0;
 }
 
-.right{
-	position: absolute;
-	right: 0;
+.wrapper{
+	margin-left: 100px;
+	margin-top: 100px;
 	width: 100px;
 	height: 100px;
-	background-color: blue;
+	background-color: black;
 }
 
-.left{
-	margin-right: 100px;
-	height: 100px;
-	background-color:burlywood ;
+.content{
+	margin-left: 50px;
+	margin-top: 100px;
+	width:50px;
+	height: 50px;
+	background-color: purple;
 }
 
 ```
 
-![](/assets/14.2.10-5ada5.png)
+
 
